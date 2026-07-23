@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="nameTuali">Proyecto: Tuali | Arca continental</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../main.css"> <!-- Estilos globales -->
+    <link rel="stylesheet" href="styles.css"> <!-- Estilos propios -->
+    <link rel="shortcut icon" type="svg" href="../../assets/favicon.svg">
+</head>
+<body> <div class="spotlight-overlay"></div>
+
+    <!-- HEADER -->
+    <header id="main-header">
+        <!-- MENÚ -->
+        <nav class="container nav-wrapper">
+            <!-- LOGO -->
+            <a href="../../index.html" id="brand-logo-link" class="brand-logo-container" aria-label="Volver al inicio">
+                <svg class="ap-logo" viewBox="0 0 32 19" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_449_1289)">
+                        <path class="logo-part-a" d="M9.60338 9.25266C9.62469 9.28955 9.62469 9.33511 9.60338 9.37201L7.75363 12.5755C7.70792 12.6547 7.76466 12.754 7.85562 12.754H11.5574C11.5994 12.754 11.6383 12.7765 11.6594 12.813L13.9204 16.7286C13.9661 16.8077 13.9094 16.907 13.8184 16.907H5.32035C5.27833 16.907 5.23949 16.9295 5.21837 16.9661L4.08748 18.9244C4.06636 18.961 4.02751 18.9835 3.98549 18.9835H0.118143C0.0271787 18.9835 -0.0295584 18.8842 0.0161555 18.8051L7.46573 5.90404C7.51121 5.82528 7.62423 5.82528 7.66971 5.90404L9.60338 9.25266Z" fill="currentColor"/>
+                        <path class="logo-part-diagonal" d="M21.7534 18.8215C21.7991 18.9006 21.7424 18.9999 21.6514 18.9999H17.784C17.742 18.9999 17.7032 18.9774 17.6821 18.9408L8.84911 3.64438C8.8278 3.60748 8.8278 3.56191 8.84911 3.52502L10.7828 0.176502C10.8283 0.0977407 10.9413 0.0977417 10.9868 0.176504L21.7534 18.8215Z" fill="currentColor"/>
+                        <path class="logo-part-p" d="M32 6.38525C32 2.85878 29.15 5.33785e-06 25.6344 0H13.5739C13.483 0 13.4262 0.0992615 13.4719 0.178428L15.7329 4.09393C15.754 4.1305 15.7929 4.15301 15.8349 4.15301H25.6344C26.8634 4.15301 27.8598 5.15242 27.8598 6.38525C27.8598 7.61808 26.8634 8.61748 25.6344 8.61749H18.5501C18.4591 8.61749 18.4024 8.71675 18.4481 8.79592L22.8785 16.4681C22.9391 16.573 23.0985 16.5297 23.0985 16.4084V12.8892C23.0985 12.8237 23.1513 12.7705 23.2164 12.7705H25.6344C29.15 12.7705 32 9.91172 32 6.38525Z" fill="currentColor"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_449_1289">
+                            <rect width="32" height="19" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+
+            <!-- MENÚ ENFOCADO AL CASO DE ESTUDIO -->
+            <ul class="nav-links case-study-nav" id="nav-menu">
+                <li>
+                    <a href="../../index.html#projects" class="back-to-home">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                        <span data-key="nav-back">Volver</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <div class="nav-settings">
+                    <button id="lang-toggle" class="lang-switch" role="switch" aria-checked="false" aria-label="Cambiar idioma a Inglés">
+                        <span class="lang-text" data-lang="es">ES</span>
+                        <span class="lang-text" data-lang="en">EN</span>
+                        <div class="lang-slider"></div>
+                    </button>
+                </div>             
+                <button class="mobile-menu-btn" id="mobile-btn" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- HERO -->
+        <section class="hero-tuali container">
+            <div class="hero-tuali-content">
+                <div class="brand-architecture">
+                    <svg class="proyect-logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.80764 15.2827L10.4629 9.70452C11.1553 9.02156 11.8758 9.70452 11.8758 9.70452L13.4452 11.2525L16.2464 8.49113C15.2746 7.53255 14.4135 6.68318 13.9706 6.24636C11.143 3.4573 8.34349 6.22036 8.34349 6.22036L1.27531 13.1922C-1.57868 16.0072 1.24895 18.7963 1.24895 18.7963L7.96389 25.4197C7.96389 25.4197 8.31712 25.7681 8.74065 25.3503C8.89706 25.1961 9.03413 25.0608 9.03413 24.364C9.03413 23.9099 9.03413 20.8365 9.03413 20.8365L4.81115 16.6781C4.09063 15.9674 4.81115 15.2844 4.81115 15.2844L4.80764 15.2827Z" fill="currentColor"/>
+                        <path d="M20.0178 12.2093L17.2182 14.9706L17.5328 15.2809C18.2252 15.9639 17.5328 16.6746 17.5328 16.6746L13.2571 20.8972C13.2571 20.8972 13.2624 23.7417 13.2571 24.1993C13.2483 24.9187 13.4047 25.1527 13.5734 25.3209C13.997 25.7386 14.3678 25.3729 14.3678 25.3729C14.3678 25.3729 19.6786 20.1345 21.0652 18.7668C23.8647 16.0055 21.037 13.2164 21.037 13.2164C21.037 13.2164 20.6346 12.8177 20.0178 12.2093Z" fill="currentColor"/>
+                        <path d="M31.7922 18.3785C31.6358 18.2243 31.4987 18.0891 30.7905 18.0891C30.3301 18.0891 27.2142 18.0891 27.2142 18.0891L22.9983 22.2545C22.2777 22.9652 21.5853 22.2545 21.5853 22.2545L20.0441 20.7342L17.2165 23.5233L19.4642 25.7421C22.3182 28.5571 25.1458 25.7681 25.1458 25.7681L31.8607 19.1447C31.8607 19.1447 32.2157 18.7963 31.7922 18.3785Z" fill="currentColor"/>
+                        <path d="M16.2447 16.9883L15.9301 16.6781C15.2377 15.9951 15.9301 15.2844 15.9301 15.2844L21.5853 9.70799C22.2777 9.02503 22.9983 9.70799 22.9983 9.70799L27.2792 13.9254C27.2792 13.9254 30.1631 13.9202 30.627 13.9254C31.3564 13.9341 31.5936 13.7798 31.7641 13.6134C32.1876 13.1956 31.8168 12.8299 31.8168 12.8299C31.8168 12.8299 26.506 7.59149 25.1194 6.22383C22.3199 3.4625 19.4905 6.24983 19.4905 6.24983C19.4905 6.24983 18.2182 7.50482 16.7315 8.97302C15.7965 9.8952 14.7755 10.9023 13.9319 11.7344L12.4241 13.2216C9.5965 16.0107 12.396 18.772 12.396 18.772L13.4206 19.7826L16.2464 16.9918L16.2447 16.9883Z" fill="currentColor"/>
+                    </svg>
+                    <span class="brand-parent" data-key="brand-parent">Arca Continental</span>
+                </div>
+                <h1 class="project-title-xl" data-key="tuali-hero-title">Tuali: E-commerce B2B</h1>
+                <p class="project-summary-inter">
+                    <span data-key="tuali-hero-desc">Diseño de una experiencia de usuario escalable e intuitiva. A través de un sistema de diseño robusto, optimizamos la navegación del core, impulsamos la retención con Rewards y facilitamos las finanzas del usuario con Créditos.</span>
+                </p>
+                <div class="kpi-instrument-panel">
+                    <div class="kpi-instrument">
+                        <div class="kpi-data"><span class="kpi-value-xl">+22%</span><span class="kpi-meta" data-key="kpi-adoption">Adopción</span></div>
+                        <div class="kpi-visual-indicator"><div class="barpro"><div class="kpi-visual-indicator"><div class="progress-bar-accent-0"></div></div><div class="kpi-visual-indicator"><div class="progress-bar-accent-1"></div></div></div></div>
+                    </div>
+                    <div class="kpi-instrument">
+                        <div class="kpi-data"><span class="kpi-value-xl">+15%</span><span class="kpi-meta" data-key="kpi-aov">AOV</span></div>
+                        <div class="kpi-visual-indicator"><div class="barpro"><div class="kpi-visual-indicator"><div class="progress-bar-accent-0"></div></div><div class="kpi-visual-indicator"><div class="progress-bar-accent-2"></div></div></div></div>
+                    </div>
+                    <div class="kpi-instrument">
+                        <div class="kpi-data"><span class="kpi-value-xl">-30%</span><span class="kpi-meta" data-key="kpi-friction">Fricción</span></div>
+                        <div class="barpro"><div class="kpi-visual-indicator"><div class="progress-bar-accent-3"></div></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-canvas-container">
+                <div class="canvas-hardware-frame">
+                    <div class="hardware-inner">
+                        <img src="assets/hero/homeTuali.png" alt="Tuali B2B Interface" class="product-shot image-rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 01. Mi Rol y Enfoque -->
+        <section class="case-section role-section container">
+            <!-- Titulo -->
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="role_title">01. Mi Rol y Enfoque</h3>
+            <!-- Contenido -->
+                <p class="challenge-lead reveal-on-scroll" data-key="role_lead">
+                    Me integré al proyecto como Senior UX/UI Designer con la misión de transformar un modelo comercial tradicional en un ecosistema e-commerce B2B fluido, omnicanal y de alto impacto. Lideré el diseño end-to-end de la aplicación móvil y la versión web responsive, priorizando la adopción digital y la retención del tendero.
+                </p>
+                <h4 class="challenge-subtitle reveal-on-scroll" data-key="role_subtitle_flows">Flujos Críticos Diseñados:</h4>
+                <ul class="challenge-flows-list reveal-on-scroll">
+                    <li>
+                        <a href="#modules-section" class="flow-card-link" data-to-tab="module-01" aria-label="Ver flujo de compra">
+                            <span class="flow-icon">🛒</span>
+                            <div class="flow-content">
+                                <strong data-key="flow_core_title">Core de Compra:</strong> 
+                                <span data-key="flow_core_desc">Optimización del flujo transaccional y el pedido diario.</span>
+                            </div>
+                            <div class="flow-arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#modules-section" class="flow-card-link" data-to-tab="module-02" aria-label="Ver flujo de rewards">
+                            <span class="flow-icon">🎁</span>
+                            <div class="flow-content">
+                                <strong data-key="flow_rewards_title">Recompensas:</strong> 
+                                <span data-key="flow_rewards_desc">Estrategia de lealtad e incentivos para el comercio local.</span>
+                            </div>
+                            <div class="flow-arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#modules-section" class="flow-card-link" data-to-tab="module-03" aria-label="Ver flujo de créditos">
+                            <span class="flow-icon">💳</span>
+                            <div class="flow-content">
+                                <strong data-key="flow_credit_title">Créditos:</strong> 
+                                <span data-key="flow_credit_desc">Inclusión financiera y flujos de financiamiento integrados.</span>
+                            </div>
+                            <div class="flow-arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <!-- 02. El Desafío UX -->
+        <section class="case-section challenge-section container">
+            <!-- Titulo -->
+            <br>
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="challenge_title">02. La Misión</h3>
+                <p class="section-description mx-auto" data-key="challenge_desc">
+                    El reto consistió en transformar un modelo comercial tradicional de visitas físicas en un ecosistema de autoservicio B2B. El objetivo fue garantizar la operatividad técnica en zonas de baja conectividad sin comprometer la relación de confianza con el usuario final.
+                </p>
+            </div>
+            <!-- Contenido -->
+             <div class="diagnostic-stack reveal-on-scroll">
+                <div class="bento-card">
+                    <span class="card-number">01</span>
+                    <div class="card-content">
+                        <h5 data-key="challenge_card_1_title">Adopción e Inclusión Digital</h5>
+                        <p data-key="challenge_card_1_desc">Diseño de interfaces optimizadas para dispositivos de gama baja, eliminando barreras tecnológicas y facilitando la transición al canal digital.</p>
+                    </div>
+                </div>
+                <div class="bento-card">
+                    <span class="card-number">02</span>
+                    <div class="card-content">
+                        <h5 data-key="challenge_card_2_title">Arquitectura y Sincronización</h5>
+                        <p data-key="challenge_card_2_desc">Gestión de más de 1,500 SKUs con reglas de precio dinámicas y control de stock en tiempo real para soportar picos masivos de transacciones.</p>
+                    </div>
+                </div>
+                <div class="bento-card">
+                    <span class="card-number">03</span>
+                    <div class="card-content">
+                        <h5 data-key="challenge_card_3_title">Escalabilidad Multiregión</h5>
+                        <p data-key="challenge_card_3_desc">Localización en México, Argentina, Perú y Ecuador; gestionando multidivisas y adaptando el UX Writing al contexto cultural de cada mercado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 03. Módulos Diseñados -->
+        <section class="case-section goal-section container">
+            <!-- Titulo -->
+            <br><br><br>
+            <div class="challenge-intro ">
+                <h3 class="section-title reveal-on-scroll" data-key="insights_title">03. Módulos de Producto Diseñados</h3>
+                <p class="section-description mx-auto reveal-on-scroll" data-key="insights_statement">
+                    Aunque intervine de forma transversal en la experiencia general de la aplicación, enfoqué mis esfuerzos principales en estructurar y diseñar tres pilares críticos para el negocio y el usuario.
+                </p>
+            </div>
+            <br><br>
+            <!-- Contenido -->
+            <div id="modules-section" class="interactive-tabs-layout">
+                <!-- DESKTOP TABS HEADER (Oculto en Mobile) -->
+                <div class="tabs-header-container reveal-on-scroll" role="tablist" aria-label="Módulos del Proyecto">
+                    <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="module-01" data-target="module-01">
+                        <span class="tab-title" data-key="insights_card_1_title">Core Flow</span>
+                    </button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="module-02" data-target="module-02">
+                        <span class="tab-title" data-key="insights_card_2_title">Loyalty Program</span>
+                    </button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="module-03" data-target="module-03">
+                        <span class="tab-title" data-key="insights_card_3_title">Credit Management</span>
+                    </button>
+                </div>
+                <div class="tabs-content-container reveal-on-scroll">
+                    <!-- Módulo 01 -->
+                    <div class="accordion-item active" id="module-01" role="tabpanel">
+                        <div class="accordion-header">
+                            <div class="header-left">
+                                <h5 class="cell-headline" data-key="insights_card_1_title">Core Flow</h5>
+                            </div>
+                            <button class="accordion-cta-btn" tabindex="-1">
+                                <span class="cta-text" data-key="cta_see_less">Ver menos</span>
+                                <svg class="cta-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+                        </div>                        
+                        <div class="accordion-content">
+                            <div class="content-inner layout-split">
+                                <!-- LADO IZQUIERDO: Textos (1.5fr) -->
+                                <div class="text-side">
+                                    <p class="problem-text" data-key="insights_user_1">
+                                        Design of the main navigation and checkout architecture. Reduced transactional friction through an intuitive flow that guides users clearly from discovery to conversion.
+                                    </p>
+                                    <div class="mockup-explanation-block">
+                                        <p class="mockup-caption" data-key="insights_detail_1">➔ Showing: Main catalog scroll and persistent checkout trigger.</p>
+                                        <span class="scroll-hint" data-key="scroll_hint">🖱️ Scroll inside the device to explore the full layout</span>
+                                    </div>
+                                </div>
+                                <!-- LADO DERECHO: Mockup (0.5fr) -->
+                                <div class="visual-side">
+                                    <div class="device-container">
+                                        <img src="/proyectos/Tuali/assets/section_03/frame-core.png" class="device-frame" alt="Phone Frame Overlay">
+                                        <div class="device-screen-scroll">
+                                            <img src="/proyectos/Tuali/assets/section_03/layout-core.png" class="scrollable-content" alt="Rewards UI">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Módulo 02 -->
+                    <div class="accordion-item" id="module-02" role="tabpanel">
+                        <div class="accordion-header">
+                            <div class="header-left">
+                                <h5 class="cell-headline" data-key="insights_card_2_title">Loyalty Program</h5>
+                            </div>
+                            <button class="accordion-cta-btn" tabindex="-1">
+                                <span class="cta-text" data-key="cta_see_more">Ver más</span>
+                                <svg class="cta-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner layout-split">
+                                <!-- LADO IZQUIERDO: Textos -->
+                                <div class="text-side">
+                                    <p class="problem-text" data-key="insights_user_2">
+                                        Conceptualization and interaction design for the rewards section, built to drive merchant retention and increase Lifetime Value (LTV).
+                                    </p>
+                                    <div class="mockup-explanation-block">
+                                        <p class="mockup-caption" data-key="insights_detail_2">➔ Showing: Rewards tier dashboard and points conversion workflow.</p>
+                                        <span class="scroll-hint" data-key="scroll_hint">🖱️ Scroll inside the device to explore the full layout</span>
+                                    </div>
+                                </div>
+                                <!-- LADO DERECHO: Mockup -->
+                                <div class="visual-side">
+                                    <div class="device-container">
+                                        <img src="/proyectos/Tuali/assets/section_03/frame-gana.png" class="device-frame" alt="Phone Frame Overlay">
+                                        <div class="device-screen-scroll">
+                                            <img src="/proyectos/Tuali/assets/section_03/layout-gana.png" class="scrollable-content" alt="Rewards UI">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Módulo 03 -->
+                    <div class="accordion-item" id="module-03" role="tabpanel">
+                        <div class="accordion-header">
+                            <div class="header-left">
+                                <h5 class="cell-headline" data-key="insights_card_3_title">Credit Management</h5>
+                            </div>
+                            <button class="accordion-cta-btn" tabindex="-1">
+                                <span class="cta-text" data-key="cta_see_more">Ver más</span>
+                                <svg class="cta-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner layout-split">
+                                <!-- LADO IZQUIERDO: Textos -->
+                                <div class="text-side">
+                                    <p class="problem-text" data-key="insights_user_3">
+                                        UI design for financing control and visualization. Provides a transparent and secure experience for applying credit lines, eliminating financial friction.
+                                    </p>
+                                    <div class="mockup-explanation-block">
+                                        <p class="mockup-caption" data-key="insights_detail_3">➔ Showing: Statement view, credit token allocation, and payment history.</p>
+                                        <span class="scroll-hint" data-key="scroll_hint">🖱️ Scroll inside the device to explore the full layout</span>
+                                    </div>
+                                </div>
+                                <!-- LADO DERECHO: Mockup -->
+                                <div class="visual-side">
+                                    <div class="device-container">
+                                        <img src="/proyectos/Tuali/assets/section_03/frame-creditos.png" class="device-frame" alt="Phone Frame Overlay">
+                                        <div class="device-screen-scroll">
+                                            <img src="/proyectos/Tuali/assets/section_03/layout-creditos.png" class="scrollable-content" alt="Rewards UI">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 04. Solución y Ejecución -->
+        <!-- Titulo -->
+        <section class="case-section process-section container">
+            <br><br><br>
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="solution_title">04. Solución y Ejecución</h3>
+                <p class="section-description mx-auto" data-key="solution_desc">
+                    Más allá de la interfaz, mi enfoque se centró en construir una infraestructura de diseño escalable y procesos de validación que garantizaron un lanzamiento exitoso.
+                </p>
+            </div>
+        <!-- Contenido -->    
+            <div class="process-timeline-wrapper reveal-on-scroll">    
+                <!-- 01. Sistema de Diseño Escalable -->
+                <article class="timeline-step">
+                    <div class="timeline-marker">
+                        <span class="step-number">01</span>
+                        <div class="step-line"></div>
+                    </div>
+                    
+                    <div class="step-content">
+                        <div class="step-text reveal-on-scroll">
+                            <h5 data-key="solution_card_1_title">Sistema de Diseño Escalable</h5>
+                            <p data-key="solution_card_1_desc">Desarrollé un Design System robusto con documentation exhaustiva y guías de estilo, garantizando la consistencia visual y acelerando el hand-off con desarrollo.</p>
+                        </div>
+                        
+                        <div class="wrapper-pdf" data-current-lang="es">
+                            <div class="step-visual mock-pdf-viewer reveal-on-scroll">
+                                
+                                <div class="viewer-toolbar">
+                                    <div class="toolbar-dots"><span></span><span></span><span></span></div>
+                                    <div class="toolbar-title" data-key="pdfTitle-1">Ejemplo DS</div>                                     
+                                    <a href="/proyectos/Tuali/assets/section_04/DS-ES.pdf" 
+                                    target="_blank" 
+                                    class="toolbar-btn btn-open-pdf" 
+                                    title="Abrir PDF"
+                                    data-pdf-es="/proyectos/Tuali/assets/section_04/DS-ES.pdf"
+                                    data-pdf-en="/proyectos/Tuali/assets/section_04/DS-EN.pdf">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="viewer-scroll-area">
+                                    <div class="document-page multi-lang-page">
+                                        <img src="/proyectos/Tuali/assets/section_04/DS-ES.png" alt="Design System ES" class="pdf-img lang-es" loading="lazy">
+                                        <img src="/proyectos/Tuali/assets/section_04/DS-EN.png" alt="Design System EN" class="pdf-img lang-en" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 02. Validación y Mejora Continua -->
+                <article class="timeline-step">
+                    <div class="timeline-marker">
+                        <span class="step-number">02</span>
+                        <div class="step-line"></div>
+                    </div>
+                    
+                    <div class="step-content">
+                        <div class="step-text reveal-on-scroll">
+                            <h5 data-key="solution_card_2_title">Validación y Mejora Continua</h5>
+                            <p data-key="solution_card_2_desc">Conduje pruebas de usabilidad y utilicé feedback directo de usuarios y stakeholders para iterar ágilmente sobre los prototipos.</p>
+                        </div>
+                        
+                        <div class="wrapper-pdf" data-current-lang="es">
+                            <div class="step-visual mock-pdf-viewer reveal-on-scroll">
+                                
+                                <div class="viewer-toolbar">
+                                    <div class="toolbar-dots"><span></span><span></span><span></span></div>
+                                    <div class="toolbar-title" data-key="pdfTitle-2">Testing_Results.pdf</div>
+                                    
+                                    <a href="/proyectos/Tuali/assets/section_04/Research-ES.pdf" 
+                                    target="_blank" 
+                                    class="toolbar-btn btn-open-pdf" 
+                                    title="Abrir PDF"
+                                    data-pdf-es="/proyectos/Tuali/assets/section_04/Research-ES.pdf"
+                                    data-pdf-en="/proyectos/Tuali/assets/section_04/Research-EN.pdf">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="viewer-scroll-area">
+                                    <div class="document-page multi-lang-page">
+                                        <img src="/proyectos/Tuali/assets/section_04/Research-ES.png" alt="Resultados Testing ES" class="pdf-img lang-es" loading="lazy">
+                                        <img src="/proyectos/Tuali/assets/section_04/Research-EN.png" alt="Resultados Testing EN" class="pdf-img lang-en" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 03. Medición y Análisis de Impacto -->
+                <article class="timeline-step">
+                    <div class="timeline-marker">
+                        <span class="step-number">03</span>
+                        <div class="step-line is-last"></div>
+                    </div>
+                    
+                    <div class="step-content">
+                        <div class="step-text reveal-on-scroll">
+                            <h5 data-key="solution_card_3_title">Medición y Análisis de Impacto</h5>
+                            <p data-key="solution_card_3_desc">Definí y monitoreé KPIs clave tras el lanzamiento, cruzando datos cuantitativos con feedback cualitativo para asegurar el cumplimiento de los objetivos de negocio.</p>
+                        </div>
+                        
+                        <div class="wrapper-pdf" data-current-lang="es">
+                            <div class="step-visual mock-pdf-viewer reveal-on-scroll">
+                                
+                                <div class="viewer-toolbar">
+                                    <div class="toolbar-dots"><span></span><span></span><span></span></div>
+                                    <div class="toolbar-title" data-key="pdfTitle-3">Ejemplo Onboarding</div>
+                                    
+                                    <a href="/proyectos/Tuali/assets/section_04/Onboarding-ES.pdf" 
+                                    target="_blank" 
+                                    class="toolbar-btn btn-open-pdf" 
+                                    title="Abrir PDF"
+                                    data-pdf-es="/proyectos/Tuali/assets/section_04/Onboarding-ES.pdf"
+                                    data-pdf-en="/proyectos/Tuali/assets/section_04/Onboarding-EN.pdf">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="viewer-scroll-area">
+                                    <div class="document-page multi-lang-page">
+                                        <img src="/proyectos/Tuali/assets/section_04/Onboarding-ES.png" alt="Reporte de Métricas ES" class="pdf-img lang-es" loading="lazy">
+                                        <img src="/proyectos/Tuali/assets/section_04/Onboarding-EN.png" alt="Reporte de Métricas EN" class="pdf-img lang-en" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+
+        <!-- 05. Impacto y Resultados -->
+        <!-- Titulo -->
+        <section class="case-section process-section container">
+            
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="impact_title">05. Impacto y Resultados</h3>
+                <p class="section-description mx-auto" data-key="impact_desc">
+                    Más allá de la entrega visual, el éxito del proyecto se consolidó a través de resultados cuantificables que validaron mis decisiones de diseño y mejoraron la eficiencia operativa de la plataforma.
+                </p>
+            </div>
+        <!-- Contenido -->
+            <div class="impact-grid-premium reveal-on-scroll">
+                <div class="impact-card-premium">
+                    <div class="impact-glow"></div>
+                    <span class="impact-value" data-key="impact_val_1">+22%</span>
+                    <h5 class="impact-label" data-key="impact_label_1">Adopción Digital</h5>
+                    <p class="impact-detail" data-key="impact_detail_1">Incremento en la migración de tenderos del canal físico al digital tras la implementación del rediseño.</p>
+                </div>
+                
+                <div class="impact-card-premium">
+                    <div class="impact-glow"></div>
+                    <span class="impact-value" data-key="impact_val_2">+15%</span>
+                    <h5 class="impact-label" data-key="impact_label_2">Crecimiento en AOV</h5>
+                    <p class="impact-detail" data-key="impact_detail_2">Crecimiento en el valor promedio de orden impulsado por la optimización de flujos y las nuevas funcionalidades de Rewards.</p>
+                </div>
+                
+                <div class="impact-card-premium">
+                    <div class="impact-glow"></div>
+                    <span class="impact-value" data-key="impact_val_3">-30%</span>
+                    <h5 class="impact-label" data-key="impact_label_3">Reducción de Fricción</h5>
+                    <p class="impact-detail" data-key="impact_detail_3">Disminución en consultas de soporte y abandono de carrito al simplificar la arquitectura de información y el checkout.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- ==========================================================================
+        FOOTER
+    ========================================================================== -->
+    <footer class="tech-stamp section container reveal">
+        <div class="tech-stack">
+            <span data-key="footer-built">Construido con Vanilla JS, HTML5 y CSS3.</span>
+            <span class="mono-text" data-key="footer-no-frameworks">Sin frameworks, puro rendimiento.</span>
+        </div>
+        <div class="copyright">
+            <span class="namefooter">&copy; <span class="current-year"></span> - Alfredo Ponce</span>
+        </div>
+    </footer>
+
+    <script src="../../script.js"></script> <!-- Script global -->
+    <script src="scriptu.js"></script> <!-- Script propio -->
+
+    <!-- Fullscreen Mockup Modal Overlay -->
+    <div id="mockup-modal" class="mockup-modal-overlay">
+        <button class="modal-close-btn" aria-label="Cerrar pantalla completa">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            <span>Cerrar</span>
+        </button>
+        <div class="modal-body">
+            <!-- Clon de los mockups -->
+        </div>
+    </div>
+
+
+
+</body>
+</html>

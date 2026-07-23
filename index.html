@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfredo Ponce | UX/UI Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="svg" href="/assets/favicon.svg">
+</head>
+
+
+<body> <div class="spotlight-overlay"></div>
+
+   <!-- ==========================================================================
+        HEADER
+   ========================================================================== -->
+    <header id="main-header">
+        <!-- MENÚ -->
+        <nav class="container nav-wrapper">
+            <!-- LOGO -->
+            <a href="#" id="brand-logo-link" class="brand-logo-container" aria-label="Volver al inicio">
+                <svg class="ap-logo" viewBox="0 0 32 19" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_449_1289)">
+                        <path class="logo-part-a" d="M9.60338 9.25266C9.62469 9.28955 9.62469 9.33511 9.60338 9.37201L7.75363 12.5755C7.70792 12.6547 7.76466 12.754 7.85562 12.754H11.5574C11.5994 12.754 11.6383 12.7765 11.6594 12.813L13.9204 16.7286C13.9661 16.8077 13.9094 16.907 13.8184 16.907H5.32035C5.27833 16.907 5.23949 16.9295 5.21837 16.9661L4.08748 18.9244C4.06636 18.961 4.02751 18.9835 3.98549 18.9835H0.118143C0.0271787 18.9835 -0.0295584 18.8842 0.0161555 18.8051L7.46573 5.90404C7.51121 5.82528 7.62423 5.82528 7.66971 5.90404L9.60338 9.25266Z" fill="currentColor"/>
+                        <path class="logo-part-diagonal" d="M21.7534 18.8215C21.7991 18.9006 21.7424 18.9999 21.6514 18.9999H17.784C17.742 18.9999 17.7032 18.9774 17.6821 18.9408L8.84911 3.64438C8.8278 3.60748 8.8278 3.56191 8.84911 3.52502L10.7828 0.176502C10.8283 0.0977407 10.9413 0.0977417 10.9868 0.176504L21.7534 18.8215Z" fill="currentColor"/>
+                        <path class="logo-part-p" d="M32 6.38525C32 2.85878 29.15 5.33785e-06 25.6344 0H13.5739C13.483 0 13.4262 0.0992615 13.4719 0.178428L15.7329 4.09393C15.754 4.1305 15.7929 4.15301 15.8349 4.15301H25.6344C26.8634 4.15301 27.8598 5.15242 27.8598 6.38525C27.8598 7.61808 26.8634 8.61748 25.6344 8.61749H18.5501C18.4591 8.61749 18.4024 8.71675 18.4481 8.79592L22.8785 16.4681C22.9391 16.573 23.0985 16.5297 23.0985 16.4084V12.8892C23.0985 12.8237 23.1513 12.7705 23.2164 12.7705H25.6344C29.15 12.7705 32 9.91172 32 6.38525Z" fill="currentColor"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_449_1289">
+                            <rect width="32" height="19" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+
+            <!-- MENÚ -->
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#projects" data-key="nav-projects">Proyectos</a></li>
+                <li><a href="#creative-lab" data-key="nav-lab">Laboratorio</a></li>
+                <li><a href="#education" data-key="nav-edu">Formación</a></li>
+                <li><a href="#about" data-key="nav-about">Sobre mí</a></li>
+                <li><a href="#contact" data-key="nav-contact">Contacto</a></li>
+                <!-- FOOTER INTEGRADO COMO ITEM DE LISTA -->
+                <li class="mobile-menu-footer">
+                    <div class="copyright">
+                        <span class="namefooter">&copy; <span class="current-year"></span> - Alfredo Ponce</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <div class="nav-settings">
+                    <button id="lang-toggle" class="lang-switch" role="switch" aria-checked="false" aria-label="Cambiar idioma a Inglés">
+                        <span class="lang-text" data-lang="es">ES</span>
+                        <span class="lang-text" data-lang="en">EN</span>
+                        <div class="lang-slider"></div>
+                    </button>
+                </div>            
+                <button class="mobile-menu-btn" id="mobile-btn" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+
+<main>
+    <!-- ==========================================================================
+        HERO
+    ========================================================================== -->
+    <section id="hero" class="container">
+        <div class="hero-grid">
+            <div class="hero-text reveal-on-scroll">
+                <!--Badge -->
+                <div class="hero-badge mono-text">
+                    <span class="badge-name">Alfredo Ponce</span>
+                    <span class="badge-sep">•</span>
+                    <span class="badge-role">Senior Product Designer</span>
+                </div>
+                <!-- H1 -->
+                 <div class="h1adjuts">
+                <h1 id="hero-title">
+                    Donde la visión del usuario se une <span class="text-accent">a la precisión técnica.</span>
+                </h1>
+                </div>
+                <!-- Marquee -->
+                 <div class="hero-marquee-container">
+                    <div class="marquee-track scroll-left">
+                        <div class="marquee-group">
+                            <span class="text-light">User Research</span>
+                            <span class="text-dark">User Flows</span>
+                            <span class="text-light">Information Architecture</span>
+                            <span class="text-dark">Wireframing</span>
+                            <span class="text-light">Usability Testing</span>
+                            <span class="text-dark">Personas & Empathy Mapping</span>
+                            <span class="text-light">Journey Mapping</span>
+                            <span class="text-dark">UX Audits</span>
+                            <span class="text-light">Accessibility (UX-focused)</span>
+                            <span class="text-dark">UX Strategy</span>
+                            <span class="text-light">Content Structure</span>
+                            <span class="text-dark">Low-Fidelity Prototyping</span>
+                        </div>
+                        <div class="marquee-group" aria-hidden="true">
+                            <span class="text-light">User Research</span>
+                            <span class="text-dark">User Flows</span>
+                            <span class="text-light">Information Architecture</span>
+                            <span class="text-dark">Wireframing</span>
+                            <span class="text-light">Usability Testing</span>
+                            <span class="text-dark">Personas & Empathy Mapping</span>
+                            <span class="text-dark">UX Audits</span>
+                            <span class="text-light">Accessibility (UX-focused)</span>
+                            <span class="text-dark">UX Strategy</span>
+                            <span class="text-light">Content Structure</span>
+                            <span class="text-dark">Low-Fidelity Prototyping</span>
+                        </div>
+                    </div>
+                    <div class="marquee-track scroll-right">
+                        <div class="marquee-group">
+                            <span class="text-dark">High-Fidelity Prototyping</span>
+                            <span class="text-light">Visual Design</span>
+                            <span class="text-dark">Design Systems</span>
+                            <span class="text-light">UI Kits</span>
+                            <span class="text-dark">Responsive Design</span>
+                            <span class="text-light">Layout & Grid Systems</span>
+                            <span class="text-dark">Microinteractions</span>
+                            <span class="text-light">Interaction Design</span>
+                            <span class="text-dark">Motion & UI Animation</span>
+                            <span class="text-light">Iconography</span>
+                            <span class="text-dark">Accessibility (UI-focused)</span>
+                            <span class="text-light">Handoff for Development</span>
+                        </div>
+                        <div class="marquee-group" aria-hidden="true">
+                            <span class="text-dark">High-Fidelity Prototyping</span>
+                            <span class="text-light">Visual Design</span>
+                            <span class="text-dark">Design Systems</span>
+                            <span class="text-light">UI Kits</span>
+                            <span class="text-dark">Responsive Design</span>
+                            <span class="text-light">Layout & Grid Systems</span>
+                            <span class="text-dark">Microinteractions</span>
+                            <span class="text-light">Interaction Design</span>
+                            <span class="text-dark">Motion & UI Animation</span>
+                            <span class="text-light">Iconography</span>
+                            <span class="text-dark">Accessibility (UI-focused)</span>
+                            <span class="text-light">Handoff for Development</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botones -->
+                <div class="hero-actions">
+                <a href="#projects" class="btn-primary" data-key="btn-projects">
+                    Explorar Proyectos
+                </a>                
+                <a href="#contact" download="Alfredo_Ponce_CV" class="btn-secondary" data-key="btn-cv">
+                    Descargar CV
+                </a>
+            </div>
+        </div>
+        <!-- Visual -->
+        <div class="hero-visual reveal-on-scroll">
+            <div class="lottie-wrapper">
+                <dotlottie-player
+                    id="hero-lottie"
+                    src="./assets/Devices.lottie"
+                    background="transparent"
+                    speed="1"
+                    loop
+                    autoplay>
+                </dotlottie-player>
+            </div>
+            <div class="lottie-ui-panel">
+                <button id="lp-play-pause" class="ctrl-icon-btn" aria-label="Reproducir/Pausar">
+                    <div class="icon-wrapper">
+                        <svg class="svg-pause" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+                        </svg>
+                        <svg class="svg-play" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"></path>
+                        </svg>
+                    </div>
+                </button>
+                <div class="ctrl-divider"></div>
+                <div class="timeline-wrapper">
+                    <input type="range" id="lp-timeline" min="0" max="100" value="0" step="0.1" aria-label="Progreso de animación">
+                </div>
+                <div class="ctrl-divider"></div>
+                <button id="lp-restart" class="ctrl-icon-btn" aria-label="Reiniciar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                        <path d="M3 3v5h5"></path>
+                    </svg>
+                </button>
+                <div class="ctrl-divider"></div>
+                <button id="lp-speed" class="ctrl-icon-btn speed-text" aria-label="Velocidad">
+                    <span id="speed-val">1.0</span><small>x</small>
+                </button>
+            </div>
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- ==========================================================================
+        PROJECTS
+    ========================================================================== -->
+    <section id="projects" class="projects-section">
+    <div class="container">
+        
+        <header class="section-header reveal-on-scroll">
+            <span class="mono-text accent-color" data-key="section-prj-tag">// 01. PORTAFOLIO DE PROYECTOS</span>
+            <h2 class="section-title" data-key="section-prj-title">Proyectos destacados</h2>
+            <p class="section-desc" data-key="section-prj-desc">
+                Selección de soluciones digitales con enfoque en arquitectura de información, escalabilidad técnica y experiencia de usuario.
+            </p>
+        </header>
+
+        <div class="projects-grid">
+            
+            <article class="project-card reveal-on-scroll">
+                <div class="project-image-container">
+                    <img src="./assets/proyects/arca-continental.png" alt="Arca Continental UI Case">
+                    <div class="project-badge">UX / UI Senior</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-meta mono-text" data-key="prj-1-meta">2023 - Actualidad • Arca Continental</div>
+                    <h3 class="project-item-title" data-key="prj-1-title">Ecosistema Digital B2B</h3>
+                    <p class="project-summary" data-key="prj-1-desc">
+                        Rediseño del flujo de pedidos masivos para Arca Continental, optimizando la eficiencia operativa en campo y la toma de decisiones.
+                    </p>
+                    <div class="project-tags">
+                        <span class="mono-text">B2B E-commerce</span>
+                        <span class="mono-text">Design Systems</span>
+                        <span class="mono-text">Data-Driven Design</span>
+                        <span class="mono-text">Usability Testing</span>
+                        <span class="mono-text">Fintech & Loyalty</span>
+                        <span class="mono-text">Responsive design</span>
+                    </div>
+                    <a href="/proyectos/Tuali/index.html" class="project-link">
+                        <span data-key="prj-1-cta">Explorar Caso</span> 
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="project-card reveal-on-scroll">
+                <div class="project-image-container">
+                    <img src="./assets/proyects/seguros-monterrey.png" alt="Seguros Monterrey UX Case">
+                    <div class="project-badge">UX / UI Senior</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-meta mono-text" data-key="prj-2-meta">2022 - 2023 • Seguros Monterrey NYL</div>
+                    <h3 class="project-item-title" data-key="smnyl-hero-title">Transformación Digital: SMNYL</h3>
+                    <p class="project-summary" data-key="smnyl-hero-desc">
+                        Simplificación de procesos complejos de cotización y autogestión de pólizas, reduciendo la carga cognitiva del usuario final.
+                    </p>
+                    <div class="project-tags">
+                        <span class="mono-text">UX Research</span>
+                        <span class="mono-text">Fintech</span>
+                    </div>
+                    <a href="/proyectos/SMNYL/index.html" class="project-link">
+                        <span data-key="prj-2-cta">Explorar Caso</span> 
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="projects-footer reveal-on-scroll flex-center" style="margin-top: 2.5rem;">
+            <a href="projects-archive.html" class="btn-archive" target="_blank" rel="noopener">
+                <span data-key="btn-archive">VER ARCHIVO COMPLETO</span> 
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==========================================================================
+        LABORATORIO
+    ========================================================================== -->
+    <section id="creative-lab" class="lab-section container">
+    <header class="section-header reveal-on-scroll">
+        <span class="mono-text accent-color" data-key="section-lab-tag">// 02. LABORATORIO CREATIVO</span>
+        <h2 class="section-title" data-key="section-lab-title">Creación de artefactos</h2>
+        <p class="section-desc" data-key="section-lab-desc">Exploraciones en diseño y prototipado interactivo para optimizar el impacto visual.</p>
+    </header>
+
+    <div class="lab-unified-card reveal-on-scroll">
+        <div class="lab-content-grid">
+            
+            <div class="lab-data-zone">
+                <div class="info-text-box" id="dynamic-info-box">
+                    <div class="lab-text-item active" data-index="0">
+                        <span class="lab-category-tag mono-text" data-key="lab-1-tag">[Psicología UX y Motion Design]</span>
+                        <h3 class="active-title mono-text" data-key="lab-1-title">Mitigación de Carga Cognitiva</h3>
+                        <p class="active-desc" data-key="lab-1-desc">Este artefacto surge de un análisis profundo sobre la percepción del tiempo...</p>
+                    </div>
+                    <!--<div class="lab-text-item" data-index="1">
+                        <span class="lab-category-tag mono-text" data-key="lab-2-tag">[Arquitectura de Información]</span>
+                        <h3 class="active-title mono-text" data-key="lab-2-title">Optimización de Flujos</h3>
+                        <p class="active-desc" data-key="lab-2-desc">Modelado de procesos complejos para la estandarización de flujos críticos...</p>
+                    </div>-->
+                    <div class="lab-text-item" data-index="2">
+                        <span class="lab-category-tag mono-text" data-key="lab-3-tag">[UX Asíncrona y Diseño Transaccional]</span>
+                        <h3 class="active-title mono-text" data-key="lab-3-title">Visibilidad en Checkout</h3>
+                        <p class="active-desc" data-key="lab-3-desc">Basado en la heurística de visibilidad del estado del sistema...</p>
+                    </div>
+                    <div class="lab-text-item" data-index="3">
+                        <span class="lab-category-tag mono-text" data-key="lab-4-tag">[Gamificación e Identidad 3D]</span>
+                        <h3 class="active-title mono-text" data-key="lab-4-title">Refuerzo y Gamificación</h3>
+                        <p class="active-desc" data-key="lab-4-desc">Diseño de un activo 3D optimizado para web...</p>
+                    </div>
+                </div>
+
+                <div class="lab-navigation">
+                    <button class="nav-btn prev" id="lab-prev" aria-label="Anterior">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <div class="lab-dots" id="lab-dots">
+                        <span class="dot active"></span>
+                        <!--<span class="dot"></span>-->
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="nav-btn next" id="lab-next" aria-label="Siguiente">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="lab-visual-zone">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-speaker"></div>
+                        <div class="phone-screen blueprint-bg">
+                            <div class="lab-internal-track" id="lab-track">
+                                <div class="lab-slide" data-loops="3"><div class="asset-container"><dotlottie-player src="./assets/lab/ACDcoin.lottie" background="transparent" speed="2" loop autoplay></dotlottie-player></div></div>
+                                <div class="lab-slide" data-loops="2"><div class="asset-container"><dotlottie-player id="tester" src="./assets/lab/bottle.lottie" background="transparent" speed="1" autoplay></dotlottie-player></div></div>
+                                <!--<div class="lab-slide" data-loops="1"><div class="asset-container"><dotlottie-player id="tester" src="./assets/lab/Gift.json" background="transparent" speed="1" loop autoplay></dotlottie-player></div></div>
+                                AGREGAR MÁS CAMBIAR EN EL JS LA LINEA:
+                                const totalRealItems = 3; 
+                                3 = no. de elementos a mostrar
+                                -->
+                                <div class="lab-slide" data-loops="3"><div class="asset-container"><dotlottie-player src="./assets/lab/carritoAsincrono.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player></div></div>
+                                <div class="lab-slide" data-loops="3"><div class="asset-container"><dotlottie-player src="./assets/lab/ACDcoin.lottie" background="transparent" speed="2" loop autoplay></dotlottie-player></div></div>
+                                <div class="lab-slide" data-loops="2"><div class="asset-container"><dotlottie-player src="./assets/lab/bottle.lottie" background="transparent" speed="1" autoplay></dotlottie-player></div></div>
+                            </div>
+                        </div>
+                        <div class="phone-btn-power"></div>
+                        <div class="phone-btn-vol"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ==========================================================================
+        EDUCATION
+    ========================================================================== -->
+    <section id="education" class="section container reveal ">
+    <header class="section-header reveal-on-scroll">
+        <span class="mono-text accent-color" data-key="edu-tag">// 03. Formación académica</span>
+        <h2 class="section-title" data-key="edu-title">Títulos y certificados</h2>
+        <p class="section-desc" data-key="edu-subtitle">Sustento teórico y rigor técnico detrás de cada decisión de producto.</p>
+    </header>
+
+    <div class="edu-grid reveal-on-scroll">
+        <article class="edu-card">
+            <div class="edu-image-container">
+                <img src="./assets/education/ingIPN.jpg" alt="Ingeniería IPN" class="edu-image">
+            </div>
+            <div class="edu-content">
+                <h3 class="edu-name" data-key="edu-name-eng">Ingeniería en Comunicaciones y Electrónica</h3>
+                <p class="edu-school">Instituto Politécnico Nacional</p>
+                <a href="https://www.buholegal.com/cedula_info/13611096-C1/" target="_blank" class="edu-cta" rel="noopener">
+                    <span data-key="edu-verify">Ver certificado</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+            </div>
+        </article>
+
+        <article class="edu-card">
+            <div class="edu-image-container">
+                <img src="./assets/education/aftpMaven.jpg" alt="Maven Figma" class="edu-image">
+            </div>
+            <div class="edu-content">
+                <h3 class="edu-name" data-key="edu-name-maven">Advanced Figma Training Program</h3>
+                <p class="edu-school">Maven</p>
+                <a href="https://maven.com/certificate/ZWPSpfoj" target="_blank" class="edu-cta" rel="noopener">
+                    <span data-key="edu-verify">Ver certificado</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+            </div>
+        </article>
+
+        <article class="edu-card">
+            <div class="edu-image-container">
+                <img src="./assets/education/dft21ce.jpg" alt="Don Norman" class="edu-image">
+            </div>
+            <div class="edu-content">
+                <h3 class="edu-name" data-key="edu-name-norman">Design for the 21st Century — Don Norman</h3>
+                <p class="edu-school">Interaction Design Foundation</p>
+                <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/740f1e5d-59fe-4a10-b33f-52ef8320de3b" target="_blank" class="edu-cta" rel="noopener">
+                    <span data-key="edu-verify">Ver certificado</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+            </div>
+        </article>
+    </div>
+
+    <div class="edu-toggle-wrapper reveal-on-scroll">
+        <button class="edu-toggle-btn main-toggle" data-action="toggle">
+            <span data-key="edu-btn-more">Ver 23 certificados más</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm chevron"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+    </div>
+
+    <div id="edu-secondary-container" class="edu-secondary-content">
+    <div class="edu-list-grid">
+        <div class="edu-list-item">
+            <span data-key="edu-list-tech">Técnico en Procesos Industriales</span>
+            <a href="https://www.buholegal.com/cedula_info/10718100-C1/" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+        <div class="edu-list-item">
+            <span data-key="edu-name-a11y">Accessibility: How to Design for All</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/02e99e32-2b7e-4dd9-bc4a-54a6fa0d8348" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div> 
+        <div class="edu-list-item">
+            <span data-key="edu-name-hci">Human-Computer Interaction (HCI)</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/06ad0b27-6876-43ff-acbe-cb1eaf198a1e" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+        <div class="edu-list-item">
+            <span data-key="edu-name-mgmt">UX Management: Strategy and Tactics</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/6b886540-c6b0-4d3e-86e7-d656fe8144c2" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>  
+        <div class="edu-list-item">
+            <span data-key="edu-list-ai">AI for Designers</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/eed82d7f-4437-45d5-98df-e1fc91982c50?certificateType=course" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>    
+        <div class="edu-list-item">
+            <span data-key="edu-list-mobile-ux">Mobile UX Strategy</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/fd2af4f0-8933-4e8b-8a28-0441041ca95e" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>    
+        <div class="edu-list-item">
+            <span data-key="edu-list-memory">Perception & Memory in HCI</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/68788750-6a80-4bf6-9309-921f8db8d49c?certificateType=course" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>    
+        <div class="edu-list-item">
+            <span data-key="edu-list-emotional">Emotional Design</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/3fd51b7e-dcb6-48d5-8105-2574c28bbc36" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>     
+        <div class="edu-list-item">
+            <span data-key="edu-list-vr">UX for Virtual Reality</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/7546b0c8-0204-47fa-b2d9-0ef842c85b37" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>      
+        <div class="edu-list-item">
+            <span data-key="edu-list-gestalt">Gestalt Psychology for Web</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/42bf6aa1-5fa9-46ed-b75c-6ce734216663" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>  
+        <div class="edu-list-item">
+            <span data-key="edu-list-usability">Web Design for Usability</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/c78437e1-587c-4dc5-b548-7b86d397dd88" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>  
+        <div class="edu-list-item">
+            <span data-key="edu-list-journey">Journey Mapping</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/985a8260-ecec-4ae2-b5ea-937b6452e36d" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>  
+        <div class="edu-list-item">
+            <span data-key="edu-list-mobile-ui">Mobile UI Design</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/c3387ce3-9213-4dda-a889-96a28c6e6888" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>  
+        <div class="edu-list-item">
+            <span data-key="edu-list-affordance">Affordances: Intuitive UI</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/643a4f06-e5ec-4d9c-849c-cd6392116b12" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>  
+        <div class="edu-list-item">
+            <span data-key="edu-list-howtoCrea">Intuitive Products by Imitating Physicality</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/3ed61d73-f6b5-42bd-b514-25942aa6fb11?certificateType=course" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>  
+        <div class="edu-list-item">
+            <span data-key="edu-list-thought">Diseño para el Pensamiento y la Emoción</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/ea06370b-d5be-414c-95ed-0fda7596a796" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+
+        <div class="edu-list-item">
+            <span data-key="edu-list-visual-perc">Guía Definitiva de Percepción Visual y Diseño</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/8428ffaa-e0fb-4c01-b2e7-f622a2df8283" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+
+        <div class="edu-list-item">
+            <span data-key="edu-list-ux-guide">Experiencia de Usuario: Guía para Principiantes</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/2559131a-afbc-436c-b10c-9dec7cc0a7ac" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+
+        <div class="edu-list-item">
+            <span data-key="edu-list-visual-guide">Diseño Visual: La Guía Definitiva</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/ce372925-67ed-470a-b13b-ecba67f1a06b" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+
+        <div class="edu-list-item">
+            <span data-key="edu-list-research">Investigación de Usuario: Métodos y Prácticas</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/a4f7a78a-5da8-493c-bf07-ee9919edddb7" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+
+        <div class="edu-list-item">
+            <span data-key="edu-list-patterns">Patrones de UI para Software Exitoso</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/eb71f9d9-687e-41ed-a710-ac612f4abb7b" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+
+        <div class="edu-list-item">
+            <span data-key="edu-list-data">Diseño Basado en Datos: Investigación Cuantitativa</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/ed5974f0-7f79-42f7-88d1-61eebfb2530a" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+
+        <div class="edu-list-item">
+            <span data-key="edu-list-agile">Métodos Ágiles para el Diseño de UX</span>
+            <a href="https://www.interaction-design.org/members/alfredo-ponce/certificate/course/cad6dc39-e89f-4692-aa48-07b6616879e7" target="_blank" class="edu-cta" rel="noopener">
+                <span data-key="edu-verify">Ver certificado</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="edu-close-wrapper">
+        <button class="edu-toggle-btn secondary-toggle" data-action="toggle">
+            <span data-key="edu-btn-less">Ver menos</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-sm chevron up"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+    </div>
+</div>
+</section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ==========================================================================
+        ABOUT
+    ========================================================================== -->
+    <section id="about" class="about-section container section-padding">
+        <header class="section-header">
+            <span class="mono-text accent-color reveal-on-scroll" data-key="about-num">// 04. Sobre mí</span>
+            <h2 class="section-title reveal-on-scroll" data-key="about-title">Alfredo Ponce</h2>
+            <p class="section-desc reveal-on-scroll" data-key="about-lead">Mentalidad de producto, lenguaje transversal e impacto estratégico.</p>
+        </header>
+        <div class="about-contenido reveal-on-scroll">
+            <!--Contenedor principal-->
+            <div class="about-grid">
+                <!-- Foto -->
+                <figure class="about-visual" data-reveal>
+                    <div class="image-wrapper">
+                        <img src="./assets/aboutme/alfredoPonce.jpeg" alt="Alfredo Ponce - Senior Product Designer" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </figure>
+                <!-- Texto -->
+                <div class="about-content" data-reveal>
+                    <div class="about-paragraphs">
+                        <p data-key="about-p1">
+                            Me especializo en crear sistemas visuales donde la estética no es solo un objetivo, sino una herramienta para resolver problemas de negocio. Mi enfoque me permite basar cada decisión en objetivos de producto y una arquitectura de información coherente, asegurando productos que priorizan la claridad y el rendimiento.
+                        </p>
+                        <p data-key="about-p2">
+                            Valoro enormemente la fluidez en el handoff técnico. Entender las posibilidades de los stacks modernos me permite proponer soluciones que son, por naturaleza, viables y consistentes, permitiendo que el producto crezca sin comprometer su integridad técnica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cards -->
+            <div class="foundations-grid reveal-on-scroll">
+                <!-- Card 1 -->
+                <div class="foundation-card">
+                    <div class="foundation-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" >
+                            <path d="M20.7871 13.2081C21.0646 12.9306 21.5144 12.9306 21.7919 13.2081C22.0694 13.4856 22.0694 13.9354 21.7919 14.2129L18.5047 17.5L21.7919 20.7871C22.0694 21.0646 22.0694 21.5144 21.7919 21.7919C21.5144 22.0694 21.0646 22.0694 20.7871 21.7919L17.5 18.5047L14.2129 21.7919C13.9354 22.0694 13.4856 22.0694 13.2081 21.7919C12.9306 21.5144 12.9306 21.0646 13.2081 20.7871L16.4953 17.5L13.2081 14.2129C12.9306 13.9354 12.9306 13.4856 13.2081 13.2081C13.4856 12.9306 13.9354 12.9306 14.2129 13.2081L17.5 16.4953L20.7871 13.2081Z"/>
+                            <path d="M20.5789 4.60526C20.5789 4.29119 20.4541 3.99007 20.232 3.76799C20.0099 3.54591 19.7088 3.42105 19.3947 3.42105H15.6053C15.2912 3.42105 14.9901 3.54591 14.768 3.76799C14.5459 3.99007 14.4211 4.29119 14.4211 4.60526V8.39474C14.4211 8.70881 14.5459 9.00993 14.768 9.23201C14.9901 9.45409 15.2912 9.57895 15.6053 9.57895H19.3947C19.7088 9.57895 20.0099 9.45409 20.232 9.23201C20.4541 9.00993 20.5789 8.70881 20.5789 8.39474V4.60526ZM22 8.39474C22 9.0857 21.7253 9.74816 21.2367 10.2367C20.7482 10.7253 20.0857 11 19.3947 11H15.6053C14.9143 11 14.2518 10.7253 13.7633 10.2367C13.2747 9.74816 13 9.0857 13 8.39474V4.60526C13 3.9143 13.2747 3.25184 13.7633 2.76326C14.2518 2.27468 14.9143 2 15.6053 2H19.3947C20.0857 2 20.7482 2.27468 21.2367 2.76326C21.7253 3.25184 22 3.9143 22 4.60526V8.39474Z"/>
+                            <path d="M9.57895 15.6053C9.57895 15.2912 9.45409 14.9901 9.23201 14.768C9.00993 14.5459 8.70881 14.4211 8.39474 14.4211H4.60526C4.29119 14.4211 3.99007 14.5459 3.76799 14.768C3.54591 14.9901 3.42105 15.2912 3.42105 15.6053V19.3947C3.42105 19.7088 3.54591 20.0099 3.76799 20.232C3.99007 20.4541 4.29119 20.5789 4.60526 20.5789H8.39474C8.70881 20.5789 9.00993 20.4541 9.23201 20.232C9.45409 20.0099 9.57895 19.7088 9.57895 19.3947V15.6053ZM11 19.3947C11 20.0857 10.7253 20.7482 10.2367 21.2367C9.74816 21.7253 9.0857 22 8.39474 22H4.60526C3.9143 22 3.25184 21.7253 2.76326 21.2367C2.27468 20.7482 2 20.0857 2 19.3947V15.6053C2 14.9143 2.27468 14.2518 2.76326 13.7633C3.25184 13.2747 3.9143 13 4.60526 13H8.39474C9.0857 13 9.74816 13.2747 10.2367 13.7633C10.7253 14.2518 11 14.9143 11 15.6053V19.3947Z"/>
+                            <path d="M9.57895 4.60526C9.57895 4.29119 9.45409 3.99007 9.23201 3.76799C9.00993 3.54591 8.70881 3.42105 8.39474 3.42105H4.60526C4.29119 3.42105 3.99007 3.54591 3.76799 3.76799C3.54591 3.99007 3.42105 4.29119 3.42105 4.60526V8.39474C3.42105 8.70881 3.54591 9.00993 3.76799 9.23201C3.99007 9.45409 4.29119 9.57895 4.60526 9.57895H8.39474C8.70881 9.57895 9.00993 9.45409 9.23201 9.23201C9.45409 9.00993 9.57895 8.70881 9.57895 8.39474V4.60526ZM11 8.39474C11 9.0857 10.7253 9.74816 10.2367 10.2367C9.74816 10.7253 9.0857 11 8.39474 11H4.60526C3.9143 11 3.25184 10.7253 2.76326 10.2367C2.27468 9.74816 2 9.0857 2 8.39474V4.60526C2 3.9143 2.27468 3.25184 2.76326 2.76326C3.25184 2.27468 3.9143 2 4.60526 2H8.39474C9.0857 2 9.74816 2.27468 10.2367 2.76326C10.7253 3.25184 11 3.9143 11 4.60526V8.39474Z"/>
+                        </svg>
+                    </div>
+                    <h4 data-key="foundation-1-title">Lógica de Sistemas</h4>
+                    <p data-key="foundation-1-desc">Creación de Design Systems con arquitectura modular y tokens que facilitan la implementación.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="foundation-card">
+                    <div class="foundation-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4 data-key="foundation-2-title">Empatía Técnica</h4>
+                    <p data-key="foundation-2-desc">Dominio de las limitaciones del navegador, performance web y estándares de accesibilidad (a11y).</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="foundation-card">
+                    <div class="foundation-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 7v5l3 3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4 data-key="foundation-3-title">Rigor de Producto</h4>
+                    <p data-key="foundation-3-desc">Estrategia basada en datos y prototipado de alta fidelidad que reduce el retrabajo en construcción.</p>
+                </div>
+            </div>
+            <!-- Marquee -->
+            <div class="tools-section">
+                <p class="tools-label reveal-on-scroll" data-key="tools-label">Arsenal Tecnológico & Herramientas</p>                
+                <div class="tools-marquee-container reveal-on-scroll">
+                    <div class="tools-marquee-track" id="toolsTicker">
+                        <!-- 1. FIGMA - Core Design Tool -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/Figma_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/Figma.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Figma</span>
+                        </div>
+                        <!-- 2. ADOBE XD - Secondary UI Tool -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/xd_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/xd.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Adobe XD</span>
+                        </div>
+                        <!-- 3. FRAMER - Advanced Prototyping -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/Framer_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/Framer.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Framer</span>
+                        </div>
+                        <!-- 4. AFTER EFFECTS - Motion Graphics -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/AE_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/AE.svg');">
+                            <div class="tool-icon"></div>
+                            <span>After Effects</span>
+                        </div>
+                        <!-- 5. LOTTIEFILES - Web Animation -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/LottieFiles_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/LottieFiles.svg');">
+                            <div class="tool-icon"></div>
+                            <span>LottieFiles</span>
+                        </div>
+                        <!-- 6. MAZE - UX Research & User Testing -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/Maze_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/Maze.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Maze</span>
+                        </div>
+                        <!-- 7. NOTION - Documentation & Knowledge Base -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/Notion_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/Notion.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Notion</span>
+                        </div>
+                        <!-- 8. ILLUSTRATOR - Vector Design -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/illus_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/illus.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Illustrator</span>
+                        </div>
+                        <!-- 9. HTML5 - Markup Standard -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/HTML5_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/HTML5.svg');">
+                            <div class="tool-icon"></div>
+                            <span>HTML5</span>
+                        </div>
+                        <!-- 10. CSS3 - Styling & Layout -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/CSS3_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/CSS3.svg');">
+                            <div class="tool-icon"></div>
+                            <span>CSS3</span>
+                        </div>
+                        <!-- 11. JAVASCRIPT - Programming Logic -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/JavaScript_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/JavaScript.svg');">
+                            <div class="tool-icon"></div>
+                            <span>JavaScript</span>
+                        </div>
+                        <!-- 12. REACT - Component-Based Library -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/react_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/react.svg');">
+                            <div class="tool-icon"></div>
+                            <span>React</span>
+                        </div>
+                        <!-- 13. STORYBOOK - UI Component Workshop -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/Storybook_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/Storybook.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Storybook</span>
+                        </div>
+                        <!-- 14. PYTHON - Data & Scripting -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/PYTHON_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/PYTHON.svg');">
+                            <div class="tool-icon"></div>
+                            <span>Python</span>
+                        </div>
+                        <!-- 15. PHP - Server-side Logic -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/PHP_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/PHP.svg');">
+                            <div class="tool-icon"></div>
+                            <span>PHP</span>
+                        </div>
+                        <!-- 16. SQL - Database Querying -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/SQL_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/SQL.svg');">
+                            <div class="tool-icon"></div>
+                            <span>SQL</span>
+                        </div>
+                        <!-- 17. GITHUB - Version Control -->
+                        <div class="tools-item" style="--h-icon: url('./assets/aboutme/toolsIcons/GitHub_color.svg'); --n-icon: url('./assets/aboutme/toolsIcons/GitHub.svg');">
+                            <div class="tool-icon"></div>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+
+    <!-- ==========================================================================
+            CONTACTO
+        ========================================================================== -->
+    <section id="contact" class="section container reveal">
+    <header class="section-header">
+        <span class="mono-text accent-color reveal-on-scroll" data-key="contact-num">// 05. Contacto</span>
+        <h2 class="section-title reveal-on-scroll" data-key="contact-title">Hablemos de tu proyecto</h2>
+        <p class="section-desc reveal-on-scroll" data-key="contact-lead">Ya sea para resolver un reto técnico, colaborar en el diseño de un producto o simplemente saludar, mi bandeja de entrada siempre está abierta.</p>
+    </header>
+
+    <div class="contact-grid reveal-on-scroll">
+        <div class="contact-card card-direct lab-item">
+            <div class="lab-content">
+                <div class="availability-badge">
+                    <span class="ping-container"><span class="ping"></span><span class="ping-dot"></span></span>
+                    <span class="status-text" data-key="contact-status">Disponible para nuevos proyectos</span>
+                </div>
+
+                <div class="contact-actions">
+                    <div class="action-item">
+                        <span class="action-label">Email</span>
+                        <div class="action-field">
+                            <span class="field-text" id="contact-email">ap11dz@outlook.com</span>
+                            <button class="icon-btn copy-btn" id="copy-email-btn" aria-label="Copiar email">
+                                <svg class="icon-copy" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                <svg class="icon-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span class="tooltip" id="copy-tooltip" data-key="contact-copy">Copiar</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer-info">
+                    <div class="timezone-display">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        <span id="local-time">CDMX, MX — 00:00</span>
+                    </div>
+                    <div class="social-pills">
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="pill-link">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            LinkedIn
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="pill-link">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-assets">
+            <div class="asset-card lab-item"> 
+                <div class="lab-content">
+                    <h3 class="asset-title" data-key="assets-title">Documentación Técnica</h3>
+                    
+                    <div class="download-group">
+                        <div class="download-info">
+                            <p data-key="assets-cv">Curriculum Vitae</p>
+                        </div>
+                        <div class="lang-options">
+                            <a href="cv-es.pdf" download class="download-pill" aria-label="Descargar CV Español">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                ES
+                            </a>
+                            <a href="cv-en.pdf" download class="download-pill" aria-label="Download CV English">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                EN
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="download-group">
+                        <div class="download-info">
+                            <p data-key="assets-portfolio">Portafolio de proyectos</p>
+                        </div>
+                        <div class="lang-options">
+                            <a href="portfolio-es.pdf" download class="download-pill" aria-label="Descargar Portfolio Español">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                ES
+                            </a>
+                            <a href="portfolio-en.pdf" download class="download-pill" aria-label="Download Portfolio English">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                EN
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+    
+
+
+<!-- ==========================================================================
+        FOOTER
+    ========================================================================== -->
+    <footer class="tech-stamp section container reveal">
+        <div class="tech-stack">
+            <span data-key="footer-built">Construido con Vanilla JS, HTML5 y CSS3.</span>
+            <span class="mono-text" data-key="footer-no-frameworks">Sin frameworks, puro rendimiento.</span>
+        </div>
+        <div class="copyright">
+            <span class="namefooter">&copy; <span class="current-year"></span> - Alfredo Ponce</span>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

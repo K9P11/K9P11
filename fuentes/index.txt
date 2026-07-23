@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfredo Ponce | UX/UI Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <header id="main-header">
+    <nav class="container nav-wrapper">
+        <!-- LOGO -->
+        <a href="#" id="brand-logo-link" class="brand-logo-container" aria-label="Volver al inicio">
+            <svg class="ap-logo" viewBox="0 0 32 19" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_449_1289)">
+                    <path class="logo-part-a" d="M9.60338 9.25266C9.62469 9.28955 9.62469 9.33511 9.60338 9.37201L7.75363 12.5755C7.70792 12.6547 7.76466 12.754 7.85562 12.754H11.5574C11.5994 12.754 11.6383 12.7765 11.6594 12.813L13.9204 16.7286C13.9661 16.8077 13.9094 16.907 13.8184 16.907H5.32035C5.27833 16.907 5.23949 16.9295 5.21837 16.9661L4.08748 18.9244C4.06636 18.961 4.02751 18.9835 3.98549 18.9835H0.118143C0.0271787 18.9835 -0.0295584 18.8842 0.0161555 18.8051L7.46573 5.90404C7.51121 5.82528 7.62423 5.82528 7.66971 5.90404L9.60338 9.25266Z" fill="currentColor"/>
+                    <path class="logo-part-diagonal" d="M21.7534 18.8215C21.7991 18.9006 21.7424 18.9999 21.6514 18.9999H17.784C17.742 18.9999 17.7032 18.9774 17.6821 18.9408L8.84911 3.64438C8.8278 3.60748 8.8278 3.56191 8.84911 3.52502L10.7828 0.176502C10.8283 0.0977407 10.9413 0.0977417 10.9868 0.176504L21.7534 18.8215Z" fill="currentColor"/>
+                    <path class="logo-part-p" d="M32 6.38525C32 2.85878 29.15 5.33785e-06 25.6344 0H13.5739C13.483 0 13.4262 0.0992615 13.4719 0.178428L15.7329 4.09393C15.754 4.1305 15.7929 4.15301 15.8349 4.15301H25.6344C26.8634 4.15301 27.8598 5.15242 27.8598 6.38525C27.8598 7.61808 26.8634 8.61748 25.6344 8.61749H18.5501C18.4591 8.61749 18.4024 8.71675 18.4481 8.79592L22.8785 16.4681C22.9391 16.573 23.0985 16.5297 23.0985 16.4084V12.8892C23.0985 12.8237 23.1513 12.7705 23.2164 12.7705H25.6344C29.15 12.7705 32 9.91172 32 6.38525Z" fill="currentColor"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_449_1289">
+                        <rect width="32" height="19" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </a>
+         <!-- MENÚ -->
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#projects" data-key="nav-projects">Proyectos</a></li>
+            <li><a href="#lab" data-key="nav-lab">Laboratorio</a></li>
+            <li><a href="#education" data-key="nav-edu">Formación</a></li>
+            <li><a href="#about" data-key="nav-about">Sobre mí</a></li>
+            
+            <li class="nav-settings">
+                <button id="lang-toggle" class="btn-text-toggle">
+                    <span class="lang-label current">ES</span> / <span class="lang-label">EN</span>
+                </button>
+                <button id="theme-toggle" class="btn-icon-toggle">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+            </li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobile-btn" aria-label="Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </nav>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section id="hero" class="container">
+        <div class="hero-grid">
+            <div class="hero-text reveal-on-scroll">
+                <div class="hero-badge mono-text">
+                    <span class="badge-name">Alfredo Ponce</span>
+                    <span class="badge-sep">•</span>
+                    <span class="badge-role">Senior Product Designer</span>
+                </div>
+            
+            <h1 id="hero-title">
+                Donde la visión del usuario se une <span class="text-accent">a la precisión técnica.</span>
+            </h1>
+            
+            <div class="hero-marquee-container">
+              <div class="marquee-track scroll-left">
+                <div class="marquee-group">
+                  <span class="text-light">User Research</span>
+                  <span class="text-dark">User Flows</span>
+                  <span class="text-light">Information Architecture</span>
+                  <span class="text-dark">Wireframing</span>
+                  <span class="text-light">Usability Testing</span>
+                  <span class="text-dark">Personas & Empathy Mapping</span>
+                  <span class="text-light">Journey Mapping</span>
+                  <span class="text-dark">UX Audits</span>
+                  <span class="text-light">Accessibility (UX-focused)</span>
+                  <span class="text-dark">UX Strategy</span>
+                  <span class="text-light">Content Structure</span>
+                  <span class="text-dark">Low-Fidelity Prototyping</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                  <span class="text-light">User Research</span>
+                  <span class="text-dark">User Flows</span>
+                  <span class="text-light">Information Architecture</span>
+                  <span class="text-dark">Wireframing</span>
+                  <span class="text-light">Usability Testing</span>
+                  <span class="text-dark">Personas & Empathy Mapping</span>
+                  <span class="text-light">Journey Mapping</span>
+                  <span class="text-dark">UX Audits</span>
+                  <span class="text-light">Accessibility (UX-focused)</span>
+                  <span class="text-dark">UX Strategy</span>
+                  <span class="text-light">Content Structure</span>
+                  <span class="text-dark">Low-Fidelity Prototyping</span>
+                </div>
+              </div>
+            
+              <div class="marquee-track scroll-right">
+                <div class="marquee-group">
+                  <span class="text-dark">High-Fidelity Prototyping</span>
+                  <span class="text-light">Visual Design</span>
+                  <span class="text-dark">Design Systems</span>
+                  <span class="text-light">UI Kits</span>
+                  <span class="text-dark">Responsive Design</span>
+                  <span class="text-light">Layout & Grid Systems</span>
+                  <span class="text-dark">Microinteractions</span>
+                  <span class="text-light">Interaction Design</span>
+                  <span class="text-dark">Motion & UI Animation</span>
+                  <span class="text-light">Iconography</span>
+                  <span class="text-dark">Accessibility (UI-focused)</span>
+                  <span class="text-light">Handoff for Development</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                  <span class="text-dark">High-Fidelity Prototyping</span>
+                  <span class="text-light">Visual Design</span>
+                  <span class="text-dark">Design Systems</span>
+                  <span class="text-light">UI Kits</span>
+                  <span class="text-dark">Responsive Design</span>
+                  <span class="text-light">Layout & Grid Systems</span>
+                  <span class="text-dark">Microinteractions</span>
+                  <span class="text-light">Interaction Design</span>
+                  <span class="text-dark">Motion & UI Animation</span>
+                  <span class="text-light">Iconography</span>
+                  <span class="text-dark">Accessibility (UI-focused)</span>
+                  <span class="text-light">Handoff for Development</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary" data-key="btn-work">Ver Proyectos</a>
+                <a href="#lab" class="btn-secondary" data-key="btn-cv">Creative Lab</a>
+            </div>
+            </div>
+        
+            <div class="hero-visual reveal-on-scroll">
+                <div class="visual-card">
+                    <div class="visual-content">
+                        <div class="dot-grid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROJECTS -->
+    <section id="projects" class="container reveal-on-scroll">
+        <h2>Proyectos</h2>
+        <h2 class="section-title mono-text" data-key="projects-title">// Selected Works</h2>
+
+        <div class="projects-grid">
+        <article class="project-card">
+        <div class="project-image">
+            <img src="assets/project1.webp" alt="Proyecto UX">
+            <div class="project-overlay">
+                <span class="badge">Fintech</span>
+            </div>
+        </div>
+        <div class="project-info">
+            <h3>Rediseño Banca Móvil</h3>
+            <p>Optimización del flujo de transferencias reduciendo la fricción en un 25%.</p>
+            <a href="#" class="project-link">Explorar Case Study <span>&rarr;</span></a>
+        </div>
+    </article>
+
+    <article class="project-card">
+        <div class="project-image">
+            <img src="assets/project2.webp" alt="Proyecto UX">
+            <div class="project-overlay">
+                <span class="badge">SaaS</span>
+            </div>
+        </div>
+        <div class="project-info">
+            <h3>Design System Alpha</h3>
+            <p>Creación de una biblioteca de componentes escalable para equipos globales.</p>
+            <a href="#" class="project-link">Explorar Case Study <span>&rarr;</span></a>
+        </div>
+    </article>
+</div>
+    </section>
+    <!-- LAB -->
+    <section id="lab" class="container reveal-on-scroll"><h2>Creative Lab</h2></section>
+    <!-- EDUCATION -->
+    <section id="education" class="container reveal-on-scroll"><h2>Formación</h2></section>
+    <!-- ABOUT -->
+    <section id="about" class="container reveal-on-scroll"><h2>Sobre mí</h2></section>
+</main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <p>&copy; 2026 — Diseñado y programado con precisión.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

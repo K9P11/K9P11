@@ -1,0 +1,145 @@
+// --- 1. CONFIGURACIÓN INICIAL DE TEMA (Evita el parpadeo) ---
+const themeBtn = document.querySelector('#theme-toggle');
+const currentTheme = localStorage.getItem('theme') || 'dark';
+document.documentElement.setAttribute('data-theme', currentTheme);
+
+themeBtn.addEventListener('click', () => {
+    let theme = document.documentElement.getAttribute('data-theme');
+    let newTheme = theme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+});
+
+// --- 2. LÓGICA DE IDIOMA ---
+const langBtn = document.querySelector('#lang-toggle');
+let currentLang = localStorage.getItem('language') || 'es'; // Guardar preferencia
+const translations = {
+    
+    es: { 
+        "hero-title": "Donde la visión del usuario se une <span class='text-accent'>a la precisión técnica.</span>",
+        "nav-projects": "Proyectos",
+        "nav-lab": "Laboratorio",
+        "nav-edu": "Formación",
+        "nav-about": "Sobre mí"
+    },
+    en: { 
+        "hero-title": "Where user insight meets <span class='text-accent'>technical precision.</span>",
+        "nav-projects": "Projects",
+        "nav-lab": "Creative Lab",
+        "nav-edu": "Education",
+        "nav-about": "About me"
+    }
+};
+const updateLanguage = (lang) => {
+    // 1. Actualizar textos con ID único
+    document.getElementById('hero-title').innerHTML = translations[lang]["hero-title"];
+    
+    // 2. Actualizar textos del menú (usando selectores de atributo)
+    document.querySelectorAll('[data-key]').forEach(el => {
+        const key = el.getAttribute('data-key');
+        if (translations[lang][key]) {
+            el.innerText = translations[lang][key];
+        }
+    });
+
+    // 3. Actualizar la apariencia del botón (Switch visual)
+    if (lang === 'en') {
+        langBtn.innerHTML = '<span class="lang-label">ES</span> / <span class="lang-label current">EN</span>';
+    } else {
+        langBtn.innerHTML = '<span class="lang-label current">ES</span> / <span class="lang-label">EN</span>';
+    }
+
+    // 4. Guardar para la próxima visita
+    localStorage.setItem('language', lang);
+    currentLang = lang;
+};
+
+// Evento de clic para alternar
+langBtn.addEventListener('click', () => {
+    const newLang = currentLang === 'es' ? 'en' : 'es';
+    updateLanguage(newLang);
+});
+
+// Ejecutar al cargar la página para aplicar el idioma guardado
+updateLanguage(currentLang);
+
+
+
+
+
+
+
+
+
+
+
+
+// --- 3. MENÚ MÓVIL (Hamburguesa y Navegación) ---
+const mobileBtn = document.querySelector('#mobile-btn');
+const navMenu = document.querySelector('#nav-menu');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+mobileBtn.addEventListener('click', () => {
+    // Activa animación de la "X" en el CSS
+    mobileBtn.classList.toggle('active');
+    // Abre/Cierra el menú lateral
+    navMenu.classList.toggle('active');
+    // Bloquea el scroll del body para mejorar la UX en móvil
+    document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : 'auto';
+});
+
+// Cerrar menú automáticamente al hacer clic en un enlace (Anclaje)
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        mobileBtn.classList.remove('active');
+        navMenu.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    });
+});
+
+// --- 4. EFECTOS DE SCROLL (Header y Revelación) ---
+const header = document.querySelector('#main-header');
+
+// Observer para revelar secciones suavemente
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.1 });
+
+// Inicializar el observer y el evento de scroll
+window.addEventListener('scroll', () => {
+    // Cambia el estado del header al bajar 50px
+    header.classList.toggle('header-scrolled', window.scrollY > 50);
+});
+
+// Aplicar el efecto de revelación a todos los elementos con la clase
+document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// --- LOGO: Volver al inicio ---
+const logoLink = document.querySelector('#brand-logo-link');
+if (logoLink) {
+    logoLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}

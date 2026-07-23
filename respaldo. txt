@@ -1,0 +1,2937 @@
+HTML:
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="nameTuali">Proyecto: Tuali | Arca continental</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../main.css"> <!-- Estilos globales -->
+    <link rel="stylesheet" href="styles.css"> <!-- Estilos propios -->
+    <link rel="shortcut icon" type="svg" href="../../assets/favicon.svg">
+</head>
+<body> <div class="spotlight-overlay"></div>
+
+    <!-- HEADER -->
+    <header id="main-header">
+        <!-- MENÚ -->
+        <nav class="container nav-wrapper">
+            <!-- LOGO -->
+            <a href="../../index.html" id="brand-logo-link" class="brand-logo-container" aria-label="Volver al inicio">
+                <svg class="ap-logo" viewBox="0 0 32 19" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_449_1289)">
+                        <path class="logo-part-a" d="M9.60338 9.25266C9.62469 9.28955 9.62469 9.33511 9.60338 9.37201L7.75363 12.5755C7.70792 12.6547 7.76466 12.754 7.85562 12.754H11.5574C11.5994 12.754 11.6383 12.7765 11.6594 12.813L13.9204 16.7286C13.9661 16.8077 13.9094 16.907 13.8184 16.907H5.32035C5.27833 16.907 5.23949 16.9295 5.21837 16.9661L4.08748 18.9244C4.06636 18.961 4.02751 18.9835 3.98549 18.9835H0.118143C0.0271787 18.9835 -0.0295584 18.8842 0.0161555 18.8051L7.46573 5.90404C7.51121 5.82528 7.62423 5.82528 7.66971 5.90404L9.60338 9.25266Z" fill="currentColor"/>
+                        <path class="logo-part-diagonal" d="M21.7534 18.8215C21.7991 18.9006 21.7424 18.9999 21.6514 18.9999H17.784C17.742 18.9999 17.7032 18.9774 17.6821 18.9408L8.84911 3.64438C8.8278 3.60748 8.8278 3.56191 8.84911 3.52502L10.7828 0.176502C10.8283 0.0977407 10.9413 0.0977417 10.9868 0.176504L21.7534 18.8215Z" fill="currentColor"/>
+                        <path class="logo-part-p" d="M32 6.38525C32 2.85878 29.15 5.33785e-06 25.6344 0H13.5739C13.483 0 13.4262 0.0992615 13.4719 0.178428L15.7329 4.09393C15.754 4.1305 15.7929 4.15301 15.8349 4.15301H25.6344C26.8634 4.15301 27.8598 5.15242 27.8598 6.38525C27.8598 7.61808 26.8634 8.61748 25.6344 8.61749H18.5501C18.4591 8.61749 18.4024 8.71675 18.4481 8.79592L22.8785 16.4681C22.9391 16.573 23.0985 16.5297 23.0985 16.4084V12.8892C23.0985 12.8237 23.1513 12.7705 23.2164 12.7705H25.6344C29.15 12.7705 32 9.91172 32 6.38525Z" fill="currentColor"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_449_1289">
+                            <rect width="32" height="19" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+
+            <!-- MENÚ ENFOCADO AL CASO DE ESTUDIO -->
+            <ul class="nav-links case-study-nav" id="nav-menu">
+                <li>
+                    <a href="../../index.html#projects" class="back-to-home">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                        <span data-key="nav-back">Volver</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <div class="nav-settings">
+                    <button id="lang-toggle" class="lang-switch" role="switch" aria-checked="false" aria-label="Cambiar idioma a Inglés">
+                        <span class="lang-text" data-lang="es">ES</span>
+                        <span class="lang-text" data-lang="en">EN</span>
+                        <div class="lang-slider"></div>
+                    </button>
+                </div>             
+                <button class="mobile-menu-btn" id="mobile-btn" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- HERO -->
+        <section class="hero-tuali container">
+            <div class="hero-tuali-content">
+                <div class="brand-architecture">
+                    <svg class="proyect-logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.80764 15.2827L10.4629 9.70452C11.1553 9.02156 11.8758 9.70452 11.8758 9.70452L13.4452 11.2525L16.2464 8.49113C15.2746 7.53255 14.4135 6.68318 13.9706 6.24636C11.143 3.4573 8.34349 6.22036 8.34349 6.22036L1.27531 13.1922C-1.57868 16.0072 1.24895 18.7963 1.24895 18.7963L7.96389 25.4197C7.96389 25.4197 8.31712 25.7681 8.74065 25.3503C8.89706 25.1961 9.03413 25.0608 9.03413 24.364C9.03413 23.9099 9.03413 20.8365 9.03413 20.8365L4.81115 16.6781C4.09063 15.9674 4.81115 15.2844 4.81115 15.2844L4.80764 15.2827Z" fill="currentColor"/>
+                        <path d="M20.0178 12.2093L17.2182 14.9706L17.5328 15.2809C18.2252 15.9639 17.5328 16.6746 17.5328 16.6746L13.2571 20.8972C13.2571 20.8972 13.2624 23.7417 13.2571 24.1993C13.2483 24.9187 13.4047 25.1527 13.5734 25.3209C13.997 25.7386 14.3678 25.3729 14.3678 25.3729C14.3678 25.3729 19.6786 20.1345 21.0652 18.7668C23.8647 16.0055 21.037 13.2164 21.037 13.2164C21.037 13.2164 20.6346 12.8177 20.0178 12.2093Z" fill="currentColor"/>
+                        <path d="M31.7922 18.3785C31.6358 18.2243 31.4987 18.0891 30.7905 18.0891C30.3301 18.0891 27.2142 18.0891 27.2142 18.0891L22.9983 22.2545C22.2777 22.9652 21.5853 22.2545 21.5853 22.2545L20.0441 20.7342L17.2165 23.5233L19.4642 25.7421C22.3182 28.5571 25.1458 25.7681 25.1458 25.7681L31.8607 19.1447C31.8607 19.1447 32.2157 18.7963 31.7922 18.3785Z" fill="currentColor"/>
+                        <path d="M16.2447 16.9883L15.9301 16.6781C15.2377 15.9951 15.9301 15.2844 15.9301 15.2844L21.5853 9.70799C22.2777 9.02503 22.9983 9.70799 22.9983 9.70799L27.2792 13.9254C27.2792 13.9254 30.1631 13.9202 30.627 13.9254C31.3564 13.9341 31.5936 13.7798 31.7641 13.6134C32.1876 13.1956 31.8168 12.8299 31.8168 12.8299C31.8168 12.8299 26.506 7.59149 25.1194 6.22383C22.3199 3.4625 19.4905 6.24983 19.4905 6.24983C19.4905 6.24983 18.2182 7.50482 16.7315 8.97302C15.7965 9.8952 14.7755 10.9023 13.9319 11.7344L12.4241 13.2216C9.5965 16.0107 12.396 18.772 12.396 18.772L13.4206 19.7826L16.2464 16.9918L16.2447 16.9883Z" fill="currentColor"/>
+                    </svg>
+                    <span class="brand-parent" data-key="brand-parent">Arca Continental</span>
+                </div>
+                <h1 class="project-title-xl" data-key="tuali-hero-title">Tuali: E-commerce B2B</h1>
+                <p class="project-summary-inter">
+                    <span data-key="tuali-hero-desc">Diseño de una experiencia de usuario escalable e intuitiva. A través de un sistema de diseño robusto, optimizamos la navegación del core, impulsamos la retención con Rewards y facilitamos las finanzas del usuario con Créditos.</span>
+                </p>
+                <div class="kpi-instrument-panel">
+                    <div class="kpi-instrument">
+                        <div class="kpi-data"><span class="kpi-value-xl">+22%</span><span class="kpi-meta" data-key="kpi-adoption">Adopción</span></div>
+                        <div class="kpi-visual-indicator"><div class="barpro"><div class="kpi-visual-indicator"><div class="progress-bar-accent-0"></div></div><div class="kpi-visual-indicator"><div class="progress-bar-accent-1"></div></div></div></div>
+                    </div>
+                    <div class="kpi-instrument">
+                        <div class="kpi-data"><span class="kpi-value-xl">+15%</span><span class="kpi-meta" data-key="kpi-aov">AOV</span></div>
+                        <div class="kpi-visual-indicator"><div class="barpro"><div class="kpi-visual-indicator"><div class="progress-bar-accent-0"></div></div><div class="kpi-visual-indicator"><div class="progress-bar-accent-2"></div></div></div></div>
+                    </div>
+                    <div class="kpi-instrument">
+                        <div class="kpi-data"><span class="kpi-value-xl">-30%</span><span class="kpi-meta" data-key="kpi-friction">Fricción</span></div>
+                        <div class="barpro"><div class="kpi-visual-indicator"><div class="progress-bar-accent-3"></div></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-canvas-container">
+                <div class="canvas-hardware-frame">
+                    <div class="hardware-inner">
+                        <img src="assets/hero/homeTuali.png" alt="Tuali B2B Interface" class="product-shot image-rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 01. Mi Rol y Enfoque -->
+        <section class="case-section role-section container">
+            <!-- Titulo -->
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="role_title">01. Mi Rol y Enfoque</h3>
+            <!-- Contenido -->
+                <p class="challenge-lead reveal-on-scroll" data-key="role_lead">
+                    Me integré al proyecto como Senior UX/UI Designer con la misión de transformar un modelo comercial tradicional en un ecosistema e-commerce B2B fluido, omnicanal y de alto impacto. Lideré el diseño end-to-end de la aplicación móvil y la versión web responsive, priorizando la adopción digital y la retención del tendero.
+                </p>
+                <h4 class="challenge-subtitle reveal-on-scroll" data-key="role_subtitle_flows">Flujos Críticos Diseñados:</h4>
+                <ul class="challenge-flows-list reveal-on-scroll">
+                    <li>
+                        <a href="#modules-section" class="flow-card-link" data-to-tab="module-01" aria-label="Ver flujo de compra">
+                            <span class="flow-icon">🛒</span>
+                            <div class="flow-content">
+                                <strong data-key="flow_core_title">Core de Compra:</strong> 
+                                <span data-key="flow_core_desc">Optimización del flujo transaccional y el pedido diario.</span>
+                            </div>
+                            <div class="flow-arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#modules-section" class="flow-card-link" data-to-tab="module-02" aria-label="Ver flujo de rewards">
+                            <span class="flow-icon">🎁</span>
+                            <div class="flow-content">
+                                <strong data-key="flow_rewards_title">Recompensas:</strong> 
+                                <span data-key="flow_rewards_desc">Estrategia de lealtad e incentivos para el comercio local.</span>
+                            </div>
+                            <div class="flow-arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#modules-section" class="flow-card-link" data-to-tab="module-03" aria-label="Ver flujo de créditos">
+                            <span class="flow-icon">💳</span>
+                            <div class="flow-content">
+                                <strong data-key="flow_credit_title">Créditos:</strong> 
+                                <span data-key="flow_credit_desc">Inclusión financiera y flujos de financiamiento integrados.</span>
+                            </div>
+                            <div class="flow-arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <!-- 02. El Desafío UX -->
+        <section class="case-section challenge-section container">
+            <!-- Titulo -->
+            <br>
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="challenge_title">02. La Misión</h3>
+                <p class="section-description mx-auto" data-key="challenge_desc">
+                    El reto consistió en transformar un modelo comercial tradicional de visitas físicas en un ecosistema de autoservicio B2B. El objetivo fue garantizar la operatividad técnica en zonas de baja conectividad sin comprometer la relación de confianza con el usuario final.
+                </p>
+            </div>
+            <!-- Contenido -->
+             <div class="diagnostic-stack reveal-on-scroll">
+                <div class="bento-card">
+                    <span class="card-number">01</span>
+                    <div class="card-content">
+                        <h5 data-key="challenge_card_1_title">Adopción e Inclusión Digital</h5>
+                        <p data-key="challenge_card_1_desc">Diseño de interfaces optimizadas para dispositivos de gama baja, eliminando barreras tecnológicas y facilitando la transición al canal digital.</p>
+                    </div>
+                </div>
+                <div class="bento-card">
+                    <span class="card-number">02</span>
+                    <div class="card-content">
+                        <h5 data-key="challenge_card_2_title">Arquitectura y Sincronización</h5>
+                        <p data-key="challenge_card_2_desc">Gestión de más de 1,500 SKUs con reglas de precio dinámicas y control de stock en tiempo real para soportar picos masivos de transacciones.</p>
+                    </div>
+                </div>
+                <div class="bento-card">
+                    <span class="card-number">03</span>
+                    <div class="card-content">
+                        <h5 data-key="challenge_card_3_title">Escalabilidad Multiregión</h5>
+                        <p data-key="challenge_card_3_desc">Localización en México, Argentina, Perú y Ecuador; gestionando multidivisas y adaptando el UX Writing al contexto cultural de cada mercado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 03. Módulos Diseñados -->
+        <section class="case-section goal-section container">
+            <!-- Titulo -->
+            <br><br><br>
+            <div class="challenge-intro ">
+                <h3 class="section-title reveal-on-scroll" data-key="insights_title">03. Módulos de Producto Diseñados</h3>
+                <p class="section-description mx-auto reveal-on-scroll" data-key="insights_statement">
+                    Aunque intervine de forma transversal en la experiencia general de la aplicación, enfoqué mis esfuerzos principales en estructurar y diseñar tres pilares críticos para el negocio y el usuario.
+                </p>
+            </div>
+            <br><br>
+            <!-- Contenido -->
+            <div id="modules-section" class="interactive-tabs-layout">
+                <!-- DESKTOP TABS HEADER (Oculto en Mobile) -->
+                <div class="tabs-header-container reveal-on-scroll" role="tablist" aria-label="Módulos del Proyecto">
+                    <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="module-01" data-target="module-01">
+                        <span class="tab-title" data-key="insights_card_1_title">Core Flow</span>
+                    </button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="module-02" data-target="module-02">
+                        <span class="tab-title" data-key="insights_card_2_title">Loyalty Program</span>
+                    </button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="module-03" data-target="module-03">
+                        <span class="tab-title" data-key="insights_card_3_title">Credit Management</span>
+                    </button>
+                </div>
+                <div class="tabs-content-container reveal-on-scroll">
+                    <!-- Módulo 01 -->
+                    <div class="accordion-item active" id="module-01" role="tabpanel">
+                        <div class="accordion-header">
+                            <div class="header-left">
+                                <h5 class="cell-headline" data-key="insights_card_1_title">Core Flow</h5>
+                            </div>
+                            <button class="accordion-cta-btn" tabindex="-1">
+                                <span class="cta-text" data-key="cta_see_less">Ver menos</span>
+                                <svg class="cta-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+                        </div>                        
+                        <div class="accordion-content">
+                            <div class="content-inner layout-split">
+                                <!-- LADO IZQUIERDO: Textos (1.5fr) -->
+                                <div class="text-side">
+                                    <p class="problem-text" data-key="insights_user_1">
+                                        Design of the main navigation and checkout architecture. Reduced transactional friction through an intuitive flow that guides users clearly from discovery to conversion.
+                                    </p>
+                                    <div class="mockup-explanation-block">
+                                        <p class="mockup-caption" data-key="insights_detail_1">➔ Showing: Main catalog scroll and persistent checkout trigger.</p>
+                                        <span class="scroll-hint" data-key="scroll_hint">🖱️ Scroll inside the device to explore the full layout</span>
+                                    </div>
+                                </div>
+                                <!-- LADO DERECHO: Mockup (0.5fr) -->
+                                <div class="visual-side">
+                                    <div class="device-container">
+                                        <img src="/proyectos/Tuali/assets/section_03/frame-core.png" class="device-frame" alt="Phone Frame Overlay">
+                                        <div class="device-screen-scroll">
+                                            <img src="/proyectos/Tuali/assets/section_03/layout-core.png" class="scrollable-content" alt="Rewards UI">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Módulo 02 -->
+                    <div class="accordion-item" id="module-02" role="tabpanel">
+                        <div class="accordion-header">
+                            <div class="header-left">
+                                <h5 class="cell-headline" data-key="insights_card_2_title">Loyalty Program</h5>
+                            </div>
+                            <button class="accordion-cta-btn" tabindex="-1">
+                                <span class="cta-text" data-key="cta_see_more">Ver más</span>
+                                <svg class="cta-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner layout-split">
+                                <!-- LADO IZQUIERDO: Textos -->
+                                <div class="text-side">
+                                    <p class="problem-text" data-key="insights_user_2">
+                                        Conceptualization and interaction design for the rewards section, built to drive merchant retention and increase Lifetime Value (LTV).
+                                    </p>
+                                    <div class="mockup-explanation-block">
+                                        <p class="mockup-caption" data-key="insights_detail_2">➔ Showing: Rewards tier dashboard and points conversion workflow.</p>
+                                        <span class="scroll-hint" data-key="scroll_hint">🖱️ Scroll inside the device to explore the full layout</span>
+                                    </div>
+                                </div>
+                                <!-- LADO DERECHO: Mockup -->
+                                <div class="visual-side">
+                                    <div class="device-container">
+                                        <img src="/proyectos/Tuali/assets/section_03/frame-gana.png" class="device-frame" alt="Phone Frame Overlay">
+                                        <div class="device-screen-scroll">
+                                            <img src="/proyectos/Tuali/assets/section_03/layout-gana.png" class="scrollable-content" alt="Rewards UI">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Módulo 03 -->
+                    <div class="accordion-item" id="module-03" role="tabpanel">
+                        <div class="accordion-header">
+                            <div class="header-left">
+                                <h5 class="cell-headline" data-key="insights_card_3_title">Credit Management</h5>
+                            </div>
+                            <button class="accordion-cta-btn" tabindex="-1">
+                                <span class="cta-text" data-key="cta_see_more">Ver más</span>
+                                <svg class="cta-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner layout-split">
+                                <!-- LADO IZQUIERDO: Textos -->
+                                <div class="text-side">
+                                    <p class="problem-text" data-key="insights_user_3">
+                                        UI design for financing control and visualization. Provides a transparent and secure experience for applying credit lines, eliminating financial friction.
+                                    </p>
+                                    <div class="mockup-explanation-block">
+                                        <p class="mockup-caption" data-key="insights_detail_3">➔ Showing: Statement view, credit token allocation, and payment history.</p>
+                                        <span class="scroll-hint" data-key="scroll_hint">🖱️ Scroll inside the device to explore the full layout</span>
+                                    </div>
+                                </div>
+                                <!-- LADO DERECHO: Mockup -->
+                                <div class="visual-side">
+                                    <div class="device-container">
+                                        <img src="/proyectos/Tuali/assets/section_03/frame-creditos.png" class="device-frame" alt="Phone Frame Overlay">
+                                        <div class="device-screen-scroll">
+                                            <img src="/proyectos/Tuali/assets/section_03/layout-creditos.png" class="scrollable-content" alt="Rewards UI">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 04. Solución y Ejecución -->
+        <!-- Titulo -->
+        <section class="case-section process-section container">
+            <br><br><br>
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="solution_title">04. Solución y Ejecución</h3>
+                <p class="section-description mx-auto" data-key="solution_desc">
+                    Más allá de la interfaz, mi enfoque se centró en construir una infraestructura de diseño escalable y procesos de validación que garantizaron un lanzamiento exitoso.
+                </p>
+            </div>
+        <!-- Contenido -->    
+            <div class="process-timeline-wrapper reveal-on-scroll">    
+                <!-- 01. Sistema de Diseño Escalable -->
+                <article class="timeline-step">
+                    <div class="timeline-marker">
+                        <span class="step-number">01</span>
+                        <div class="step-line"></div>
+                    </div>
+                    
+                    <div class="step-content">
+                        <div class="step-text reveal-on-scroll">
+                            <h5 data-key="solution_card_1_title">Sistema de Diseño Escalable</h5>
+                            <p data-key="solution_card_1_desc">Desarrollé un Design System robusto con documentation exhaustiva y guías de estilo, garantizando la consistencia visual y acelerando el hand-off con desarrollo.</p>
+                        </div>
+                        
+                        <div class="wrapper-pdf" data-current-lang="es">
+                            <div class="step-visual mock-pdf-viewer reveal-on-scroll">
+                                
+                                <div class="viewer-toolbar">
+                                    <div class="toolbar-dots"><span></span><span></span><span></span></div>
+                                    <div class="toolbar-title" data-key="pdfTitle-1">Ejemplo DS</div>                                     
+                                    <a href="/proyectos/Tuali/assets/section_04/DS-ES.pdf" 
+                                    target="_blank" 
+                                    class="toolbar-btn btn-open-pdf" 
+                                    title="Abrir PDF"
+                                    data-pdf-es="/proyectos/Tuali/assets/section_04/DS-ES.pdf"
+                                    data-pdf-en="/proyectos/Tuali/assets/section_04/DS-EN.pdf">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="viewer-scroll-area">
+                                    <div class="document-page multi-lang-page">
+                                        <img src="/proyectos/Tuali/assets/section_04/DS-ES.png" alt="Design System ES" class="pdf-img lang-es" loading="lazy">
+                                        <img src="/proyectos/Tuali/assets/section_04/DS-EN.png" alt="Design System EN" class="pdf-img lang-en" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 02. Validación y Mejora Continua -->
+                <article class="timeline-step">
+                    <div class="timeline-marker">
+                        <span class="step-number">02</span>
+                        <div class="step-line"></div>
+                    </div>
+                    
+                    <div class="step-content">
+                        <div class="step-text reveal-on-scroll">
+                            <h5 data-key="solution_card_2_title">Validación y Mejora Continua</h5>
+                            <p data-key="solution_card_2_desc">Conduje pruebas de usabilidad y utilicé feedback directo de usuarios y stakeholders para iterar ágilmente sobre los prototipos.</p>
+                        </div>
+                        
+                        <div class="wrapper-pdf" data-current-lang="es">
+                            <div class="step-visual mock-pdf-viewer reveal-on-scroll">
+                                
+                                <div class="viewer-toolbar">
+                                    <div class="toolbar-dots"><span></span><span></span><span></span></div>
+                                    <div class="toolbar-title" data-key="pdfTitle-2">Testing_Results.pdf</div>
+                                    
+                                    <a href="/proyectos/Tuali/assets/section_04/Research-ES.pdf" 
+                                    target="_blank" 
+                                    class="toolbar-btn btn-open-pdf" 
+                                    title="Abrir PDF"
+                                    data-pdf-es="/proyectos/Tuali/assets/section_04/Research-ES.pdf"
+                                    data-pdf-en="/proyectos/Tuali/assets/section_04/Research-EN.pdf">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="viewer-scroll-area">
+                                    <div class="document-page multi-lang-page">
+                                        <img src="/proyectos/Tuali/assets/section_04/Research-ES.png" alt="Resultados Testing ES" class="pdf-img lang-es" loading="lazy">
+                                        <img src="/proyectos/Tuali/assets/section_04/Research-EN.png" alt="Resultados Testing EN" class="pdf-img lang-en" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 03. Medición y Análisis de Impacto -->
+                <article class="timeline-step">
+                    <div class="timeline-marker">
+                        <span class="step-number">03</span>
+                        <div class="step-line is-last"></div>
+                    </div>
+                    
+                    <div class="step-content">
+                        <div class="step-text reveal-on-scroll">
+                            <h5 data-key="solution_card_3_title">Medición y Análisis de Impacto</h5>
+                            <p data-key="solution_card_3_desc">Definí y monitoreé KPIs clave tras el lanzamiento, cruzando datos cuantitativos con feedback cualitativo para asegurar el cumplimiento de los objetivos de negocio.</p>
+                        </div>
+                        
+                        <div class="wrapper-pdf" data-current-lang="es">
+                            <div class="step-visual mock-pdf-viewer reveal-on-scroll">
+                                
+                                <div class="viewer-toolbar">
+                                    <div class="toolbar-dots"><span></span><span></span><span></span></div>
+                                    <div class="toolbar-title" data-key="pdfTitle-3">Ejemplo Onboarding</div>
+                                    
+                                    <a href="/proyectos/Tuali/assets/section_04/Onboarding-ES.pdf" 
+                                    target="_blank" 
+                                    class="toolbar-btn btn-open-pdf" 
+                                    title="Abrir PDF"
+                                    data-pdf-es="/proyectos/Tuali/assets/section_04/Onboarding-ES.pdf"
+                                    data-pdf-en="/proyectos/Tuali/assets/section_04/Onboarding-EN.pdf">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div class="viewer-scroll-area">
+                                    <div class="document-page multi-lang-page">
+                                        <img src="/proyectos/Tuali/assets/section_04/Onboarding-ES.png" alt="Reporte de Métricas ES" class="pdf-img lang-es" loading="lazy">
+                                        <img src="/proyectos/Tuali/assets/section_04/Onboarding-EN.png" alt="Reporte de Métricas EN" class="pdf-img lang-en" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+
+        <!-- 05. Impacto y Resultados -->
+        <!-- Titulo -->
+        <section class="case-section process-section container">
+            
+            <div class="challenge-intro reveal-on-scroll">
+                <h3 class="section-title" data-key="impact_title">05. Impacto y Resultados</h3>
+                <p class="section-description mx-auto" data-key="impact_desc">
+                    Más allá de la entrega visual, el éxito del proyecto se consolidó a través de resultados cuantificables que validaron mis decisiones de diseño y mejoraron la eficiencia operativa de la plataforma.
+                </p>
+            </div>
+        <!-- Contenido -->
+            <div class="impact-grid-premium reveal-on-scroll">
+                <div class="impact-card-premium">
+                    <div class="impact-glow"></div>
+                    <span class="impact-value" data-key="impact_val_1">+22%</span>
+                    <h5 class="impact-label" data-key="impact_label_1">Adopción Digital</h5>
+                    <p class="impact-detail" data-key="impact_detail_1">Incremento en la migración de tenderos del canal físico al digital tras la implementación del rediseño.</p>
+                </div>
+                
+                <div class="impact-card-premium">
+                    <div class="impact-glow"></div>
+                    <span class="impact-value" data-key="impact_val_2">+15%</span>
+                    <h5 class="impact-label" data-key="impact_label_2">Crecimiento en AOV</h5>
+                    <p class="impact-detail" data-key="impact_detail_2">Crecimiento en el valor promedio de orden impulsado por la optimización de flujos y las nuevas funcionalidades de Rewards.</p>
+                </div>
+                
+                <div class="impact-card-premium">
+                    <div class="impact-glow"></div>
+                    <span class="impact-value" data-key="impact_val_3">-30%</span>
+                    <h5 class="impact-label" data-key="impact_label_3">Reducción de Fricción</h5>
+                    <p class="impact-detail" data-key="impact_detail_3">Disminución en consultas de soporte y abandono de carrito al simplificar la arquitectura de información y el checkout.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- ==========================================================================
+        FOOTER
+    ========================================================================== -->
+    <footer class="tech-stamp section container reveal">
+        <div class="tech-stack">
+            <span data-key="footer-built">Construido con Vanilla JS, HTML5 y CSS3.</span>
+            <span class="mono-text" data-key="footer-no-frameworks">Sin frameworks, puro rendimiento.</span>
+        </div>
+        <div class="copyright">
+            <span class="namefooter">&copy; <span class="current-year"></span> - Alfredo Ponce</span>
+        </div>
+    </footer>
+
+    <script src="../../script.js"></script> <!-- Script global -->
+    <script src="scriptu.js"></script> <!-- Script propio -->
+
+    <!-- Fullscreen Mockup Modal Overlay -->
+    <div id="mockup-modal" class="mockup-modal-overlay">
+        <button class="modal-close-btn" aria-label="Cerrar pantalla completa">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            <span>Cerrar</span>
+        </button>
+        <div class="modal-body">
+            <!-- Clon de los mockups -->
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS:
+/* ==========================================================================
+   CABECERA Y NAVEGACIÓN (COMPORTAMIENTO BASE / DESKTOP)
+   ========================================================================== */
+
+#main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; /* Altura estricta para garantizar centrado vertical */
+    z-index: 1000;
+    padding: 0; /* Padding vertical en 0, el centrado lo hace Flexbox */
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center; /* Centrado vertical absoluto */
+    max-width: 100vw;
+}
+
+#main-header.header-scrolled {
+    background: var(--glass);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom-color: var(--border);
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Asegura que el contenido interno se centre a lo alto */
+    width: 100%;
+    height: 100%; /* Toma los 60px del header */
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+/* 1. Lado Izquierdo (Logo) */
+.brand-logo-container {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.ap-logo {
+    width: clamp(32px, 4vw, 36px);
+    height: auto;
+    color: var(--text-main);
+    transition: transform 0.4s ease;
+}
+
+.brand-logo-container:hover .ap-logo {
+    transform: translateY(-2px) scale(1.03);
+}
+
+/* 2. Menú (Botón Volver) */
+.nav-links.case-study-nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    flex: 1;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.back-to-home {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: var(--text-main);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.back-to-home svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.back-to-home:hover {
+    color: var(--accent);
+}
+
+.back-to-home:hover svg {
+    transform: translateX(-5px);
+}
+
+/* 3. Lado Derecho (Switches) */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.nav-settings {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1.5rem;
+    border-left: 1px solid var(--border);
+}
+
+.btn-text-toggle, .btn-icon-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+}
+
+.lang-label { opacity: 0.5; transition: 0.3s ease; }
+.lang-label.current { opacity: 1; color: var(--accent); font-weight: bold; }
+.sun-icon, .moon-icon { width: 20px; height: 20px; }
+[data-theme="light"] .sun-icon, [data-theme="dark"] .moon-icon { display: none; }
+
+/* Ocultar hamburguesa por defecto */
+.mobile-menu-btn { display: none; }
+
+
+/* ==========================================================================
+   Menú RESPONSIVE (SOLO MÓVIL: <= 768px)
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    /* Ocultamos botón hamburguesa definitivamente en este caso de estudio */
+    .mobile-menu-btn {
+        display: none !important;
+    }
+
+    /* Lado Izquierdo: LOGO */
+    .brand-logo-container {
+        flex: 1 1 0; 
+        order: 1; /* Forzamos primera posición */
+        justify-content: flex-start;
+    }
+
+    /* Lado Central: SWITCHES */
+    .nav-actions {
+        flex: 1 1 0;
+        order: 2; /* Forzamos segunda posición (centro) */
+        justify-content: center;
+    }
+    .nav-settings {
+        border-left: none; /* Quitamos borde de división */
+        padding-left: 0;
+        gap: 0.8rem;
+    }
+
+    /* Lado Derecho: BOTÓN VOLVER */
+    .nav-links.case-study-nav {
+        flex: 1 1 0;
+        order: 3; /* Forzamos tercera posición (derecha) */
+        justify-content: flex-end;
+        position: static; /* Rompemos herencia de menú móvil antiguo */
+        width: auto;
+        height: auto;
+        background: none;
+        backdrop-filter: none;
+        transform: none;
+        flex-direction: row;
+        padding: 0; 
+        margin: 0;
+    }
+    .nav-links{
+        border-left:none;
+
+    }
+    .nav-links li {
+        opacity: 1;
+        transform: none;
+    }
+    .nav-links a {
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+    .nav-links a::before {
+        display: none !important; /* Evita que aparezca el "01" */
+    }
+
+    /* Asegurar que el botón se pegue al borde y no se rompa */
+    .back-to-home {
+        padding: 0; /* Sin padding interno que desplace el texto */
+        margin: 0;
+        gap: 5px;
+        white-space: nowrap; /* CRÍTICO: Fuerza al texto y al ícono a no separarse en 2 líneas */
+    }
+    
+    .back-to-home span {
+        display: inline-block !important; /* Mantiene el texto siempre visible */
+        font-size: 0.9rem;
+    }
+    .back-to-home svg {
+        width: 18px;
+        height: 18px;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   SECCIÓN HERO
+   ========================================================================== */
+.hero-tuali {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    min-height: 100vh;
+    max-height: 100vh;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+/* ==============================   IZQUIERDA   ============================== */
+.hero-tuali-content{
+    height: 100%;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+/* EMPRESA: Logo y nombre */
+.brand-architecture {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.proyect-logo{
+    width: 20px;
+    height: 20px;
+    color: var(--text-muted);
+}
+.brand-parent {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: .9rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+/* TITULO */
+.project-title-xl {
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+}
+/* DESCRIPCIÓN */
+.project-summary-inter  {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--text-main);
+}
+
+/* KPIs */
+.kpi-instrument-panel {
+    display: flex;
+    gap: 40px;
+}
+.kpi-instrument {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.kpi-value-xl {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--text-main);
+}
+.kpi-meta {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 0.5; }
+.kpi-visual-indicator {
+    height: 2px;
+    background: var(--border);
+    width: 100%;
+}
+.barpro{
+    display: flex;
+    gap: 4px;
+}
+.progress-bar-accent-0 {
+    height: 100%;
+    width: 100%;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent);
+}
+.progress-bar-accent-1 {
+    height: 100%;
+    width: 22%;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent);
+}
+.progress-bar-accent-2 {
+    height: 100%;
+    width: 15%;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent);
+}
+.progress-bar-accent-3 {
+    height: 100%;
+    width: 70%;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent);
+}
+
+
+/* ==============================   DERECHA   ============================== */
+.product-canvas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    perspective: 1200px;
+}
+
+/* El Case y su Levitación */
+.canvas-hardware-frame {
+    display: inline-flex; 
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 10px;
+    border: 1px solid var(--border);
+    
+    /* Estado base 3D */
+    transform: rotateY(-15deg) rotateX(5deg);
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    transform-style: preserve-3d;
+    
+    /* Movimiento oscilatorio */
+    animation: levitate 6s ease-in-out infinite;
+    will-change: transform, translate, box-shadow;
+}
+
+@keyframes levitate {
+    0%, 100% { translate: 0px 0px; box-shadow: 0 40px 80px rgba(0,0,0,0.2); }
+    50% { translate: 0px -15px; box-shadow: 0 60px 110px rgba(0,0,0,0.4); }
+}
+
+/* Vista Frontal al interactuar */
+.canvas-hardware-frame:hover {
+    transform: rotateY(0deg) rotateX(0deg);
+}
+
+/* Contenedor de la pantalla */
+.hardware-inner {
+    position: relative;
+    background: #000;
+    border-radius: 8px;
+    height: 65vh; 
+    max-height: 812px;
+    aspect-ratio: 375 / 812;
+    width: auto;
+}
+
+/* La Imagen */
+.product-shot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.image-rounded {
+    border-radius: 8px; 
+}
+
+/* --------------------------------------------------------
+   TABLETS Y PANTALLAS MEDIANAS (Hasta 992px)
+   -------------------------------------------------------- */
+@media screen and (max-width: 992px) {
+    .hero-tuali {
+        /* Pasamos de Grid a Flex para tener mejor control vertical */
+        display: flex;
+        flex-direction: column;
+        min-height: auto;
+        max-height: none; /* Quitamos el bloqueo de pantalla completa */
+        padding-top: 120px; /* Espacio extra superior para evitar choque con navbar */
+        padding-bottom: 0px;
+        gap: 4rem; /* Separación clara entre el texto y el teléfono */
+    }
+
+    .hero-tuali-content {
+        order: 1; /* Forzamos que el texto vaya primero */
+        width: 100%;
+    }
+
+    .product-canvas-container {
+        order: 2; /* Forzamos que el teléfono vaya abajo */
+        width: 100%;
+        perspective: 900px; /* Suavizamos un poco la perspectiva */
+        display: none;
+    }
+
+    /* Suavizamos la rotación 3D para evitar desbordes en pantallas más angostas */
+    .canvas-hardware-frame {
+        transform: rotateY(-5deg) rotateX(2deg);
+    }
+
+    /* El teléfono ahora depende del ancho, no del alto de la pantalla */
+    .hardware-inner {
+        height: auto;
+        width: 60%; /* Ocupa el 60% del contenedor en tablet */
+        max-width: 340px;
+        aspect-ratio: 375 / 812; /* Mantiene la proporción de iPhone nativa */
+    }
+}
+
+/* --------------------------------------------------------
+   MÓVILES (Hasta 768px)
+   -------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .hero-tuali {
+        padding-top: 100px;
+        gap: 3rem;
+    }
+
+    /* Ajuste fino de tipografía para evitar que choque en bordes */
+    .project-title-xl {
+        font-size: clamp(2.5rem, 10vw, 3.5rem); 
+    }
+
+    .project-summary-inter, .ltv-acronym {
+        font-size: 1.05rem; /* Letra un poco más digerible en móvil */
+    }
+
+    /* Ocultamos la explicación del acrónimo para limpiar la lectura */
+    .ltv-full-text {
+        display: none;
+    }
+
+    /* Los KPIs bajan a formato lista (1 sola columna) */
+    .kpi-instrument-panel {
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .kpi-instrument {
+        width: 100%;
+        gap: 8px;
+    }
+
+    /* Hacemos que las barras visuales aprovechen el ancho en móvil */
+    .barpro {
+        width: 100%;
+    }
+
+    /* Eliminamos completamente el ángulo 3D en móvil, dejamos solo la levitación */
+    .canvas-hardware-frame {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    
+    /* Prevenir que el efecto hover en móviles trabe el estado de rotación */
+    .canvas-hardware-frame:hover {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+
+    /* Ajuste final del tamaño del dispositivo para celulares */
+    .hardware-inner {
+        width: 100%; /* Se hace más ancho relativo a la pantalla del celular */
+        max-width: 240px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   SECCIÓN 02: ROL Y RESPONSABILIDADES
+   ========================================================================== */
+.role-section {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.role-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.bento-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 20px; /* Bordes suaves premium */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bento-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05); /* Sombra sutil en modo claro/oscuro */
+}
+
+/* Modificadores del Grid */
+.role-main {
+    grid-column: span 2;
+    justify-content: center;
+}
+
+.role-deliverables {
+    grid-column: span 1;
+}
+
+.role-responsibilities {
+    grid-column: span 3;
+}
+
+/* Tipografía de las tarjetas */
+.bento-overline {
+    font-family: 'JetBrains Mono', monospace; /* Alineado a tu marca Arca */
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.bento-title {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.1;
+    margin-bottom: 0.8rem;
+}
+
+.bento-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--text-main);
+    opacity: 0.7;
+    max-width: 90%;
+}
+
+/* Grid de Responsabilidades Interno */
+.resp-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.resp-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-main);
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+.resp-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: var(--border); /* Contenedor sutil para el icono */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-main);
+}
+
+.resp-icon svg {
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+}
+
+/* ==========================================================================
+   RESPONSIVE BENTO UI
+   ========================================================================== */
+@media (max-width: 1024px) {
+    .resp-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas para responsabilidades en tablet */
+    }
+}
+
+@media (max-width: 768px) {
+    .role-bento-grid {
+        grid-template-columns: 1fr; /* Todo a 1 columna en móviles */
+    }
+    
+    .role-main, .role-deliverables, .role-responsibilities {
+        grid-column: span 1; /* Quitamos el span de 2 y 3 */
+    }
+
+    .bento-card {
+        padding: 1.5rem;
+    }
+
+    .resp-grid {
+        grid-template-columns: 1fr; /* 1 columna de responsabilidades en móvil */
+        gap: 1.2rem;
+    }
+    
+    .resp-item {
+        flex-direction: row; /* Icono a la izquierda, texto a la derecha en móvil */
+        align-items: center;
+    }
+    
+    .resp-icon {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   SECCIÓN 02: CHALLENGE / LA MISIÓN (Simétrico)
+   ========================================================================== */
+.challenge-section {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* --- Intro (Bloque Independiente) --- */
+.challenge-intro {
+    display: block; 
+    width: 100%;
+}
+
+.section-title {
+    display: block;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+    color: var(--text-main);
+    line-height: 1.1;
+}
+
+.section-description {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--text-main);
+}
+
+/* --- Cabecera de Problemas --- */
+.challenges-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sub-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: var(--text-main);
+    opacity: 0.6;
+    white-space: nowrap;
+}
+
+.header-line {
+    height: 1px;
+    width: 100%;
+    background-color: var(--border);
+    opacity: 0.4;
+}
+
+/* --- Grid de 3 Tarjetas  --- */
+.diagnostic-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 1.5rem;
+}
+
+.card-number {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--text-main);
+    opacity: 0.2;
+    font-family: monospace;
+    margin-bottom: 1rem;
+}
+
+.card-content h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: var(--text-main);
+}
+
+.card-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-main);
+    opacity: 0.8;
+    margin: 0;
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 1100px) {
+    .diagnostic-grid {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .diagnostic-grid {
+        grid-template-columns: 1fr; /* Una columna para asegurar legibilidad */
+        gap: 1.5rem;
+    }
+    .card-number {
+        margin-bottom: 1.5rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   SECCIÓN 04: MATRIZ DE COMPRENSIÓN (Technical Diagram Strict Style)
+   ========================================================================== */
+.insights-section {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.insights-intro {
+    display: block;
+    width: 100%;
+}
+
+.insights-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Contenedor Principal Monocromático --- */
+.insights-diagram-table {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: transparent;
+    overflow: hidden;
+}
+
+/* 25%-Concepto, 37.5%-Problema, 37.5%-Solución.*/
+.diagram-table-header,
+.diagram-table-row {
+    display: grid;
+    grid-template-columns: 25% 37.5% 37.5%;
+    width: 100%;
+}
+
+/* Divisores horizontales entre filas */
+.diagram-table-row {
+    border-top: 1px solid var(--border);
+    transition: background-color 0.2s ease;
+}
+
+.diagram-table-row:hover {
+    background: rgba(255, 255, 255, 0.01);
+}
+
+/* --- Estilo Base de las Celdas --- */
+.diagram-th {
+    background: var(--bg-secondary);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: var(--text-muted);
+    padding: 1.2rem 1.5rem;
+}
+
+.diagram-td {
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Divisores verticales */
+.column-concept,
+.column-problem {
+    border-right: 1px solid var(--border);
+}
+
+/* --- Celda Tipo Identificador (Izquierda) --- */
+.concept-lead {
+    gap: 0.5rem;
+}
+
+
+.cell-headline {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-main);
+    line-height: 1.3;
+}
+
+/* --- Celdas de Texto Técnico --- */
+.data-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-main);
+    margin: 0;
+}
+
+.problem-style p {
+    font-weight: 500;
+    opacity: 0.90;
+   
+}
+
+.solution-style p {
+    font-weight: 500;
+    opacity: 0.90;
+}
+
+/* Ocultar etiquetas responsivas en escritorio */
+.responsive-label {
+    display: none;
+}
+
+/* ==========================================================================
+   RESPONSIVE - ADAPTACIÓN EN CASCADA
+   ========================================================================== */
+@media (max-width: 992px) {
+    /* Rompemos el grid rígido de columnas cuando la pantalla no tiene espacio horizontal */
+    .diagram-table-header {
+        display: none;
+    }
+    
+    .diagram-table-row {
+        grid-template-columns: 1fr; /* Colapsa a bloque vertical único por hallazgo */
+    }
+    
+    .diagram-table-row:not(:first-of-type) {
+        border-top: 2px solid var(--border); /* Divisor más grueso entre bloques completos */
+    }
+
+    .diagram-td {
+        border-right: none;
+        padding: 1.5rem;
+    }
+    
+    .diagram-td:not(:last-child) {
+        border-bottom: 1px solid var(--border); /* Divisores internos de la fila colapsada */
+    }
+    
+    .concept-lead {
+        background: var(--bg-secondary);
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem;
+    }
+    
+    /* Mostrar cabeceras contextuales para mantener la legibilidad vertical */
+    .responsive-label {
+        display: block;
+        font-size: 0.65rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        opacity: 0.3;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .insights-section {
+        padding: 60px 20px;
+        gap: 2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.impact-section { padding: 4rem 0; }
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.impact-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 2.5rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.impact-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-5px);
+}
+
+.impact-value {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.impact-label {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.impact-detail {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   SECCIÓN 01: ROL
+   ========================================================================== */
+
+/* Utilidades generales */
+.mx-auto { margin-left: auto; margin-right: auto;}
+.mt-4 { margin-top: 2rem; }
+/* ---------------------------------------------------
+    SECCIÓN: MI ROL Y ENFOQUE (100% WIDTH + FULL CTA)
+--------------------------------------------------- */
+
+.challenge-intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Título e Intro */
+.challenge-lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0 0 2.5rem 0;
+}
+
+.challenge-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 1.5rem 0;
+}
+
+/* Lista de Flujos al 100% */
+.challenge-flows-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%; /* Forzar el ancho completo de la lista */
+}
+
+.challenge-flows-list li {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* Tarjeta interactiva (Todo el contenedor es el CTA) */
+.flow-card-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 14px 20px;
+    border-radius: 12px;
+    text-decoration: none; /* Eliminar sublineado nativo de enlaces */
+    width: 100%;
+    box-sizing: border-box;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover de la ficha completa */
+.flow-card-link:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.flow-icon {
+    font-size: 1.35rem;
+    flex-shrink: 0;
+}
+
+.flow-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    flex-grow: 1; /* Empuja la flecha hacia el extremo derecho */
+}
+
+.flow-content strong {
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+/* Icono de la flecha (Limpio, sin fondo ni contenedor rígido) */
+.flow-arrow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* Flecha blanca por defecto */
+    flex-shrink: 0;
+    margin-left: 12px;
+    /* Animación solicitada aplicada directamente al elemento de la flecha */
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.3s ease;
+}
+
+.flow-arrow-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Comportamiento de la flecha al hacer hover en la ficha (.flow-card-link) */
+.flow-card-link:hover .flow-arrow-icon {
+    color: var(--accent); /* Cambia al color acento de tu sitio */
+    transform: scale(1.2) translateX(4px); /* Animación elástica + sutil empuje hacia la derecha */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+   SECCIÓN 02: MISIÓN (Híbrido)
+--------------------------------------------------- */
+.diagnostic-stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 992px) {
+    .diagnostic-stack {
+        grid-template-columns: 1fr;
+        gap: 2rem; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+   SECCIÓN 03: MÓDULOS (Tabs Híbridos / Acordeón)
+--------------------------------------------------- */
+.interactive-tabs-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =========================================
+   ESTILOS DE TABS (DESKTOP)
+========================================= */
+.tabs-header-container {
+    display: flex;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.tab-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.25rem 1rem;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: var(--text-main);
+    font-size: 1.1rem;
+    font-weight: 600;
+    opacity: 0.5; /* Inactive State */
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+
+/* Hover State */
+.tab-btn:hover {
+    opacity: 0.2;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+/* Pressed State */
+.tab-btn:active {
+    transform: scale(0.98);
+}
+
+/* Active State */
+.tab-btn.active {
+    opacity: 1;
+    background: var(--bg-secondary);
+    border-color: var(--border);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================================
+   ESTILOS DE CONTENEDORES Y ACORDEÓN
+========================================= */
+.tabs-content-container {
+    width: 100%;
+}
+
+.accordion-item {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accordion-item.active {
+    background: var(--bg-secondary);
+    border-color: var(--border);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* MOBILE: Comportamiento nativo de acordeón */
+.accordion-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    padding: 1.75rem 2.5rem;
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    user-select: none;
+    gap: 2rem;
+}
+
+.accordion-item:hover .accordion-cta-btn {
+    color: var(--accent);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+    width: 100%;
+}
+
+.cell-headline { margin: 0; }
+
+.accordion-cta-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    border: none;
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-weight: 600;
+    pointer-events: none;
+    min-width: fit-content;
+}
+
+.cta-chevron { transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+.accordion-item.active .cta-chevron { transform: rotate(-180deg); }
+
+.accordion-content {
+    display: none;
+    opacity: 0;
+}
+
+/* =========================================
+   LAYOUT INTERNO (Textos 1.5fr / Mockup 0.5fr)
+========================================= */
+.accordion-item.active .accordion-content {
+    display: block;
+    animation: fadeInAccordion 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes fadeInAccordion {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.content-inner.layout-split {
+    display: grid;
+    /* Ajuste exacto solicitado: Texto a la izquierda (1.5fr) y Mockup a la derecha (0.5fr) */
+    grid-template-columns: 1.5fr 0.5fr; 
+    gap: 4rem;
+    padding: 2.5rem 3rem;
+    align-items: center;
+}
+
+.text-side { display: flex; flex-direction: column; gap: 1.5rem; }
+.problem-text { font-size: 1.05rem; line-height: 1.6; opacity: 0.85; margin: 0; }
+.mockup-explanation-block { border-left: 2px solid var(--border); padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem;}
+.mockup-caption { font-size: 0.85rem; opacity: 0.65; font-style: italic; margin: 0; white-space: pre-line; line-height: 1.8; }
+.scroll-hint { font-size: 0.8rem; color: var(--accent); font-weight: 600; }
+
+.visual-side { display: flex; justify-content: center; align-items: center; width: 100%; }
+.device-container { position: relative; width: 100%; max-width: 210px; margin: 0 auto; cursor: pointer; }
+.device-frame { width: 100%; position: relative; z-index: 2; pointer-events: none; }
+.device-screen-scroll {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: calc(100% - 2px);
+    height: calc(100% - 6px);
+    border-radius: 28px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 1;
+    background: #090d16;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+.device-screen-scroll::-webkit-scrollbar { width: 0px; background: transparent; }
+.scrollable-content { width: 100%; display: block; }
+
+
+/* =========================================
+   MODAL FULLSCREEN (MOCKUP OVERLAY)
+========================================= */
+/* Contenedor principal del modal */
+.mockup-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(15,23,42,.9); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 9999; /* Por encima de toda la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Estado activo cuando se hace clic */
+.mockup-modal-overlay.is-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Contenedor del teléfono inyectado */
+.modal-body {
+    transform: scale(0.8);
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    max-height: 85vh;
+}
+
+/* Escala del teléfono al abrirse en Desktop */
+.mockup-modal-overlay.is-active .modal-body {
+    transform: scale(1.3); 
+}
+
+/* Escala ajustada para Móviles (para que no se salga de la pantalla) */
+@media (max-width: 768px) {
+    .mockup-modal-overlay.is-active .modal-body {
+        transform: scale(1.15); 
+    }
+}
+
+/* Botón flotante de cerrar */
+.modal-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s ease, transform 0.2s ease;
+    z-index: 10000;
+}
+
+.modal-close-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Bloqueo del scroll en la página de fondo */
+body.modal-open {
+    overflow: hidden;
+}
+
+/* =========================================
+   MEDIA QUERIES (TRANSICIÓN A ACORDEÓN)
+========================================= */
+@media (min-width: 993px) {
+    .accordion-header { display: none; }
+    .accordion-item { display: none; }
+    .accordion-item.active { display: block; border-color: transparent; }
+}
+
+@media (max-width: 992px) {
+    /* Ocultamos los Tabs de Desktop */
+    .tabs-header-container { display: none; }
+    
+    /* Contenedor global: le damos espacio entre tarjetas */
+    .tabs-content-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem; 
+    }
+
+    .accordion-item { display: block; } 
+    
+    /* Optimizamos los tamaños de las fuentes en móvil */
+    .accordion-header {
+        padding: 1.5rem;
+    }
+    
+    .cell-headline {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    /* Ajuste perfecto del espaciado interno */
+    .content-inner.layout-split {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 0 1.5rem 2rem 1.5rem; /* Margen superior 0 para conectar suave con el header */
+    }
+    
+    /* Invertimos el orden: Mockup arriba, Texto abajo */
+    .visual-side { 
+        order: 1; 
+        margin-top: 0.5rem;
+    }
+    .text-side { 
+        order: 1; 
+    }
+    
+    /* Crecemos un poco el dispositivo para mejorar la legibilidad en pantallas pequeñas */
+    .device-container { 
+        max-width: 230px; 
+    }
+
+    /* Reducimos el tamaño de la fuente para evitar textos enormes en móvil */
+    .problem-text {
+        font-size: 0.95rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+   SECCIÓN PROCESOS: TIMELINE Y VISOR DOCUMENTO (FAKE PDF)
+--------------------------------------------------- */
+.process-timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.timeline-step { display: flex; gap: 2rem; position: relative; }
+.timeline-marker { display: flex; flex-direction: column; align-items: center; width: 40px; flex-shrink: 0; }
+.step-number { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: var(--bg-secondary, #f4f4f5); color: var(--text-main, #111); font-size: 0.875rem; font-weight: 700; z-index: 2; }
+.step-line { width: 2px; flex-grow: 1; background: var(--border, #e4e4e7); margin-top: 1rem; margin-bottom: 1rem; }
+.step-line.is-last { display: none; }
+
+.step-content {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 4rem;
+    width: 100%;
+    padding-bottom: 6rem;
+    min-height: 320px;
+    align-items: start; 
+}
+
+.step-text { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: fit-content;
+}
+
+.step-text h5 { font-size: clamp(1.5rem, 2.5vw, 1.75rem); font-weight: 700; line-height: 1.2; color: var(--text-main); margin: 0; }
+.step-text p { font-size: 1.125rem; line-height: 1.6; color: var(--text-secondary, #666); margin: 0; }
+
+/* ==========================================
+   VISOR PDF: ESTRATEGIA DESKTOP (HUG & FILL)
+=========================================== */
+.wrapper-pdf {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-self: stretch; 
+}
+
+.mock-pdf-viewer {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0; 
+    border-radius: 12px;
+    overflow: hidden; 
+    background: #323639;
+    border: 1px solid var(--border, #e4e4e7);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Barra Superior */
+.viewer-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #1a1a1c;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    flex-shrink: 0; 
+    gap:1rem;
+}
+
+.toolbar-dots { display: flex; gap: 6px; }
+.toolbar-dots span { width: 10px; height: 10px; border-radius: 50%; background: #444; }
+.toolbar-title { color: #a1a1a6; font-size: 0.8rem; font-weight: 500; font-family: monospace; letter-spacing: 0.5px; }
+.toolbar-btn { color: #a1a1a6; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease; }
+.toolbar-btn:hover { color: #fff; }
+.toolbar-btn svg { width: 18px; height: 18px; }
+
+/* Scroll Area Exclusiva */
+.viewer-scroll-area {
+    flex: 1; 
+    overflow-y: auto; 
+    min-height: 0; 
+    padding: 2rem;
+    scrollbar-width: thin;
+    scrollbar-color: #666 #323639;
+    -webkit-overflow-scrolling: touch; 
+}
+
+.viewer-scroll-area::-webkit-scrollbar { width: 8px; }
+.viewer-scroll-area::-webkit-scrollbar-track { background: #323639; }
+.viewer-scroll-area::-webkit-scrollbar-thumb { background-color: #666; border-radius: 10px; }
+
+.document-page {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border-radius: 4px; 
+    overflow: hidden;
+}
+
+/* ==========================================
+   ARQUITECTURA DE TRANSICIÓN I18N
+=========================================== */
+.multi-lang-page {
+    position: relative;
+    width: 100%;
+}
+
+.multi-lang-page .pdf-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+/* Encapsulamos la capa alternativa exactamente encima */
+.multi-lang-page .lang-en {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Manejo de estados cruzados sin romper el scroll interno */
+[data-current-lang="es"] .lang-es {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+[data-current-lang="es"] .lang-en {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+[data-current-lang="en"] .lang-es {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+}
+[data-current-lang="en"] .lang-en {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+
+/* --- ANIMACIONES SCROLL REVEAL --- */
+.reveal-on-scroll {
+    opacity: 0; transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.step-visual.reveal-on-scroll { transition-delay: 0.15s; }
+.reveal-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
+
+/* ==========================================
+   RESPONSIVE OPTIMIZADO (MÓVIL Y TABLET)
+=========================================== */
+@media (max-width: 992px) {
+    .timeline-step { gap: 1rem; }
+    .step-content { 
+        grid-template-columns: 1fr; 
+        gap: 2rem; 
+        padding-bottom: 4rem; 
+        align-items: stretch; 
+    }
+    .step-text { padding: 0; }
+
+    /* Forzamos el contenedor absoluto a comportarse físicamente en móviles */
+    .wrapper-pdf { 
+        align-self: auto; 
+        height: 250px; /* Altura controlada perfecta para visualización móvil */
+    }
+    
+    .mock-pdf-viewer { 
+        position: relative; 
+        height: 100%; 
+    }
+    
+    .viewer-scroll-area { 
+        padding: 1rem; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+   SECCIÓN 05: IMPACTO (Tarjetas Premium)
+--------------------------------------------------- */
+.impact-grid-premium {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.impact-card-premium {
+    position: relative;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 3rem 2rem;
+    border-radius: 24px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.impact-card-premium:hover {
+    transform: translateY(-8px);
+}
+
+.impact-glow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 4px;
+    background: var(--accent);
+    box-shadow: 0 0 20px var(--accent);
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.impact-card-premium:hover .impact-glow {
+    opacity: 1;
+}
+
+@media (max-width: 900px) {
+    .impact-grid-premium { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JS:
+// 3. Año dinámico en Footer (CORREGIDO)
+    const currentYear = new Date().getFullYear();
+    const yearElements = document.querySelectorAll('.current-year');
+    
+    // Esto nos dirá en la consola si JavaScript realmente está viendo tus HTML
+    console.log(`Buscando años: Se encontraron ${yearElements.length} elementos.`);
+    
+    yearElements.forEach(element => {
+        element.textContent = currentYear; // textContent es más seguro y directo
+    });
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================== 
+   INTERACTIVE BLUEPRINT LOGIC (Mobile Panel Handler)
+   ========================================================================== */
+document.addEventListener('DOMContentLoaded', () => {
+  const hotspots = document.querySelectorAll('.hotspot');
+  const mobileTitle = document.getElementById('mobile-title');
+  const mobileDesc = document.getElementById('mobile-desc');
+  const panelTextContainer = document.querySelector('.panel-text');
+
+  if (!hotspots.length || !mobileTitle) return;
+
+  hotspots.forEach(spot => {
+    spot.addEventListener('click', (e) => {
+      // Prevenir en desktop (ya que desktop usa CSS hover puramente)
+      if (window.innerWidth > 768) return;
+
+      // 1. Manejo de estado 'active' en los puntos
+      hotspots.forEach(h => h.classList.remove('active'));
+      spot.classList.add('active');
+
+      // 2. Extraer datos del tooltip interno
+      const tooltipH4 = spot.querySelector('.hotspot-tooltip h4');
+      const tooltipP = spot.querySelector('.hotspot-tooltip p');
+
+      if (tooltipH4 && tooltipP) {
+        // 3. Ejecutar animación de Fade-out
+        panelTextContainer.classList.add('fade-text');
+        
+        // 4. Cambiar el texto a la mitad de la animación
+        setTimeout(() => {
+          // Copiamos el HTML directamente para preservar traducciones
+          mobileTitle.innerHTML = tooltipH4.innerHTML;
+          mobileDesc.innerHTML = tooltipP.innerHTML;
+          
+          // Ejecutar animación de Fade-in
+          panelTextContainer.classList.remove('fade-text');
+        }, 300); // 300ms debe coincidir con la transición en CSS
+      }
+    });
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Control interactivo para la sección de Módulos (Manual)
+    const tabs = document.querySelectorAll('.module-tab');
+    const screens = document.querySelectorAll('.visualizer-screen');
+
+    if(tabs.length > 0 && screens.length > 0) {
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remover clase activa de todos
+                tabs.forEach(t => t.classList.remove('active'));
+                screens.forEach(s => s.classList.remove('active'));
+
+                // Activar el seleccionado
+                tab.classList.add('active');
+                const targetId = tab.getAttribute('data-target');
+                const targetScreen = document.getElementById(targetId);
+                
+                if(targetScreen) {
+                    targetScreen.classList.add('active');
+                }
+            });
+        });
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const dots = document.querySelectorAll('.dot');
+    
+    // Agrupamos los contenedores de pantallas físicas
+    const screenContainers = document.querySelectorAll('.screen-content');
+    
+    let currentIndex = 0;
+    const totalSlides = 3;
+
+    function changeSlide(targetIndex) {
+        currentIndex = targetIndex;
+
+        // Sincronizar imágenes en todos los dispositivos
+        screenContainers.forEach(container => {
+            const slides = container.querySelectorAll('.slide');
+            slides.forEach((slide, idx) => {
+                if (idx === currentIndex) {
+                    slide.classList.add('active');
+                } else {
+                    slide.classList.remove('active');
+                }
+            });
+        });
+
+        // Actualizar estado visual de los dots
+        dots.forEach((dot, idx) => {
+            if (idx === currentIndex) {
+                dot.classList.add('active');
+            } else {
+                dot.classList.remove('active');
+            }
+        });
+    }
+
+    // Eventos de navegación manual
+    prevBtn.addEventListener('click', () => {
+        let index = currentIndex - 1;
+        if (index < 0) index = totalSlides - 1;
+        changeSlide(index);
+    });
+
+    nextBtn.addEventListener('click', () => {
+        let index = currentIndex + 1;
+        if (index >= totalSlides) index = 0;
+        changeSlide(index);
+    });
+
+    dots.forEach((dot, idx) => {
+        dot.addEventListener('click', () => {
+            changeSlide(idx);
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // ==========================================
+    // 1. LÓGICA DE TABS Y ACORDEÓN (INTERNACIONALIZADO)
+    // ==========================================
+    const tabs = document.querySelectorAll('.tab-btn');
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    const getLanguage = () => {
+        const htmlLang = document.documentElement.lang || 'es';
+        return htmlLang.toLowerCase().startsWith('en') ? 'en' : 'es';
+    };
+
+    const uiTexts = {
+        es: { seeMore: 'Ver más', seeLess: 'Ver menos' },
+        en: { seeMore: 'View more', seeLess: 'View less' }
+    };
+
+    const activateModule = (targetId) => {
+        const currentLang = getLanguage();
+
+        tabs.forEach(tab => {
+            tab.classList.remove('active');
+            tab.setAttribute('aria-selected', 'false');
+            if (tab.dataset.target === targetId) {
+                tab.classList.add('active');
+                tab.setAttribute('aria-selected', 'true');
+            }
+        });
+
+        accordionItems.forEach(item => {
+            const isTarget = item.id === targetId;
+            const ctaText = item.querySelector('.cta-text');
+
+            if (isTarget) {
+                item.classList.add('active');
+                if (ctaText) {
+                    ctaText.textContent = uiTexts[currentLang].seeLess;
+                    ctaText.setAttribute('data-key', 'cta_see_less');
+                }
+            } else {
+                item.classList.remove('active');
+                if (ctaText) {
+                    ctaText.textContent = uiTexts[currentLang].seeMore;
+                    ctaText.setAttribute('data-key', 'cta_see_more');
+                }
+            }
+        });
+    };
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            activateModule(tab.dataset.target);
+        });
+    });
+
+    accordionItems.forEach(item => {
+        const header = item.querySelector('.accordion-header');
+        if (header) {
+            header.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                if (!isActive) {
+                    activateModule(item.id);
+                    setTimeout(() => {
+                        item.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 120); 
+                } else {
+                    item.classList.remove('active');
+                    const ctaText = item.querySelector('.cta-text');
+                    if (ctaText) {
+                        ctaText.textContent = uiTexts[getLanguage()].seeMore;
+                        ctaText.setAttribute('data-key', 'cta_see_more');
+                    }
+                    tabs.forEach(t => t.classList.remove('active'));
+                }
+            });
+        }
+    });
+
+    // ==========================================
+    // 2. LÓGICA DEL MODAL FULLSCREEN (CON DIAGNÓSTICO)
+    // ==========================================
+    const modal = document.getElementById('mockup-modal');
+    
+    // VALIDACIÓN DE SEGURIDAD
+    if (!modal) {
+        console.error("❌ ERROR: El JavaScript no encuentra el <div id='mockup-modal'> en tu HTML. Por favor agrégalo al final de tu documento.");
+        return; // Detiene la ejecución para no romper la web
+    }
+
+    const modalBody = modal.querySelector('.modal-body');
+    const closeBtn = modal.querySelector('.modal-close-btn');
+    const devices = document.querySelectorAll('.device-container');
+
+    console.log(`✅ Sistema Listo: Se detectaron ${devices.length} mockups y el contenedor del modal está activo.`);
+
+    devices.forEach((device) => {
+        // Aseguramos que el cursor sea de manita por CSS desde JS
+        device.style.cursor = 'pointer'; 
+
+        device.addEventListener('click', (e) => {
+            console.log("📱 Clic detectado. Abriendo modal...");
+            
+            // Fundamental: Evita que el clic se propague al acordeón y lo cierre
+            e.stopPropagation(); 
+            
+            // Clonación e inyección
+            modalBody.innerHTML = '';
+            const clonedDevice = device.cloneNode(true);
+            modalBody.appendChild(clonedDevice);
+            
+            // Activamos las clases CSS
+            modal.classList.add('is-active');
+            document.body.classList.add('modal-open');
+        });
+    });
+
+    const closeModal = () => {
+        modal.classList.remove('is-active');
+        document.body.classList.remove('modal-open');
+        setTimeout(() => { modalBody.innerHTML = ''; }, 300);
+    };
+
+    closeBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('is-active')) closeModal();
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+ // ==========================================
+    // REVELACIÓN DE LA SECCIÓN 04. Solución y Ejecución
+    // ==========================================
+document.addEventListener("DOMContentLoaded", () => {
+    // Configuración del observador
+    const observerOptions = {
+        root: null, // Usa el viewport del navegador
+        rootMargin: '0px',
+        threshold: 0.15 // Se activa cuando el 15% del elemento es visible en pantalla
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            // Si el elemento entra en pantalla
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                // Dejamos de observarlo para que la animación solo ocurra la primera vez
+                observer.unobserve(entry.target); 
+            }
+        });
+    }, observerOptions);
+
+    // Seleccionamos todos los elementos con la clase
+    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+    revealElements.forEach(el => observer.observe(el));
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    
+    /* 1. ANIMACIÓN SCROLL REVEAL (Intersection Observer) */
+    const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
+    
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target); 
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+});
+
+/* 2. CONTROL GLOBAL DE IDIOMA PARA LOS VISORES FAKE-PDF */
+function switchPortfolioLanguage(lang) { // Recibe 'es' o 'en'
+    
+    // Cambia los renders visuales del documento mediante CSS
+    const pdfContainers = document.querySelectorAll('.wrapper-pdf');
+    pdfContainers.forEach(wrapper => {
+        wrapper.setAttribute('data-current-lang', lang);
+        
+        // Actualiza las rutas i18n correspondientes en el botón de la barra
+        const externalBtn = wrapper.querySelector('.btn-open-pdf');
+        if (externalBtn) {
+            const pathTarget = externalBtn.getAttribute(`data-pdf-${lang}`);
+            if (pathTarget) {
+                externalBtn.setAttribute('href', pathTarget);
+            }
+        }
+    });
+}
+
+
+
+
+
+
+
+
+
+// ==========================================
+    // Controlar tabs de modulo desde mi rol
+// ==========================================
+document.addEventListener("DOMContentLoaded", () => {
+    const flowLinks = document.querySelectorAll(".flow-card-link[data-to-tab]");
+
+    flowLinks.forEach(link => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault(); // Detiene el salto brusco por defecto del navegador
+            
+            const targetModuleId = link.getAttribute("data-to-tab");
+            const targetSection = document.querySelector(link.getAttribute("href"));
+
+            if (targetSection) {
+                // 1. Encontrar y activar el botón de la Tab en Desktop
+                const desktopTabBtn = document.querySelector(`.tab-btn[data-target="${targetModuleId}"]`);
+                if (desktopTabBtn && !desktopTabBtn.classList.contains("active")) {
+                    desktopTabBtn.click(); // Forzamos el clic para activar tus clases y lógica existentes
+                }
+
+                // 2. Por seguridad adaptativa en Mobile (si manejas lógica independiente de clases de acordeón)
+                const mobileAccordionItem = document.getElementById(targetModuleId);
+                if (mobileAccordionItem && !mobileAccordionItem.classList.contains("active")) {
+                    // Si tu script de acordeón móvil expande mediante un clic en el header:
+                    const accordionHeader = mobileAccordionItem.querySelector(".accordion-header");
+                    if (accordionHeader) accordionHeader.click();
+                }
+
+                // 3. Hacer el scroll suave (Smooth Scroll) hacia la sección de módulos
+                targetSection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+            }
+        });
+    });
+});
