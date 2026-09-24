@@ -1453,7 +1453,7 @@ body {
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    background-color: var(--slate-800);
+    /*background-color: var(--slate-800);*/
     
     /* REQUERIMIENTO: Imagen Cuadrada */
     aspect-ratio: 1 / 1; 
